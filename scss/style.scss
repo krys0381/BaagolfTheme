@@ -1,0 +1,81 @@
+/*
+Theme Name: Blaagolf Theme
+Author: EASV Students
+Description: Used for the Blåvandshuk Golf website.
+*/
+
+@import "variables";
+
+/* Header */
+
+.header-row {
+    padding: 10px 0;
+}
+
+.header{
+    background-color: $basecolor;
+}
+
+/* Homepage */
+
+.row{
+   padding-top: 80px;
+   padding-bottom: 80px;
+}
+
+.introduction-component{
+    background-color: white;
+}
+
+.introduction-container .introduction-text-container {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.introduction-container .introduction-text-container #line {
+    height: 0;
+    width: 80px;
+    background-color: violet;
+    border: 1.5px solid violet;
+    opacity: 1;
+    margin-right: 20px;
+}
+
+.introduction-container .introduction-text-container .btn {
+    background-color:  white;
+    border-radius: 0;
+    border-color: black;
+    color: black;
+    padding: 15px 30px;
+    transition: 0.3s;
+}
+
+.introduction-container .introduction-text-container .btn:hover {
+    background-color: yellow;
+}
+
+/* Footer */
+
+.footer{
+ background-color: black;
+}
+
+.footer-row {
+    display: flex;
+    background-color: purple;
+    padding: 40px 0 40px 0;
+}
+
+
+.rights-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.rights-container p {
+    opacity: .60;
+}
