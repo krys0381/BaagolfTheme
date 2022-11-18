@@ -9,13 +9,33 @@
     <?php wp_head() ?>
 </head>
 
-<header>
-    <div class="header container-fluid">
-        <div class="container">
-            <div class="header-row row d-none d-xl-flex">
-                <div class="desktop-menu-container d-none d-xl-flex justify-content-between">
-                </div> 
+<body>
+
+    <header>
+        <div class="header container-fluid">
+            <div class="container">
+                <div class="header-row row d-none d-xl-flex">
+                    <div class="desktop-menu-container d-none d-xl-flex justify-content-between">
+
+                        <div class="left-menu-container d-flex col-6 align-items-center justify-content-start" >
+                            <div class="logo-container col-5 ">
+                                <a href="/"><div class="image-container"></div></a>
+                            </div>
+                        </div>
+
+                        <div class="right-menu-container col-6 d-flex align-items-center justify-content-end g-2">
+                            <div class="navigation d-flex g-2">
+                                <p>HOME</p>
+                                <p>ABOUT</p>
+                                <p>GOLF</p>
+                                <p>MEMBERSHIP</p>
+                                <p>MORE</p>
+                                <p>CONTACT</p>
+                            </div>
+                        </div> 
+
+                    </div> 
+                </div>
             </div>
         </div>
-    </div>
-</header>
+    </header>

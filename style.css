@@ -4,46 +4,68 @@ Theme Name: Blaagolf Theme
 Author: EASV Students
 Description: Used for the Blåvandshuk Golf website.
 */
-/* Header */
+/* HEADER */
 .header-row {
-  padding: 10px 0;
+  padding: 0 !important;
 }
 .header {
-  background-color: red;
+  background-color: transparent;
 }
-/* Homepage */
-.row {
-  padding-top: 80px;
-  padding-bottom: 80px;
+.image-container {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100%;
 }
-.introduction-component {
-  background-color: white;
-}
-.introduction-container .introduction-text-container {
+.navigation {
   display: flex;
-  align-items: center;
-  text-align: left;
+  justify-content: flex-end;
+  /* a {
+        font: normal normal normal 16px/24px Montserrat;
+        letter-spacing: 0px;
+        color: $whitetextcolor;
+        margin: 0 15px;
+
+        &:hover {
+            color: $accentlightcolor;
+        }
+    } */
 }
-.introduction-container .introduction-text-container #line {
-  height: 0;
-  width: 80px;
-  background-color: violet;
-  border: 1.5px solid violet;
-  opacity: 1;
-  margin-right: 20px;
+.navigation p {
+  font: normal normal normal 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #4A4848;
+  margin: 0 15px;
+  padding: 0;
 }
-.introduction-container .introduction-text-container .btn {
-  background-color: white;
-  border-radius: 0;
-  border-color: black;
-  color: black;
+/* HOMEPAGE - HERO */
+.hero-container {
+  width: 100vw;
+  min-height: 90vh;
+  position: relative;
+}
+.hero-container .hero-image-container {
+  width: 100%;
+  min-height: 95%;
+  position: absolute;
+}
+.hero-container .hero-image-container img {
+  width: 100%;
+}
+.hero-container .content-container {
+  padding-bottom: 150px;
+}
+.hero-container .content-container .btn-primary {
   padding: 15px 30px;
-  transition: 0.3s;
+  border-radius: 0;
+  color: #4A4848;
+  background: #F8F9FA 0% 0% no-repeat padding-box;
 }
-.introduction-container .introduction-text-container .btn:hover {
-  background-color: yellow;
+.hero-title, .hero-subtitle, .btn-primary {
+  z-index: 1;
 }
-/* Footer */
+/* FOOTER */
 .footer {
   background-color: black;
 }
