@@ -54,16 +54,64 @@ Description: Used for the Blåvandshuk Golf website.
   width: 100%;
 }
 .hero-container .content-container {
-  padding-bottom: 150px;
+  padding-bottom: 50px;
 }
 .hero-container .content-container .btn-primary {
-  padding: 15px 30px;
+  padding: 15px 0;
   border-radius: 0;
+  border-color: white;
   color: #4A4848;
   background: #F8F9FA 0% 0% no-repeat padding-box;
 }
 .hero-title, .hero-subtitle, .btn-primary {
   z-index: 1;
+}
+/* HOMEPAGE - INTRODUCTION */
+.introduction-row .row {
+  padding-top: 80px;
+}
+.introduction-component {
+  background-color: #EFEFEF;
+}
+.introduction-container {
+  width: 75%;
+}
+.introduction-container .introduction-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.introduction-container .introduction-text-container h2 {
+  font: normal normal bold 32px/45px Montserrat;
+  letter-spacing: 0px;
+  color: #4A4848;
+  margin: 0;
+}
+.introduction-container .introduction-text-container p {
+  font: normal normal normal 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #4A4848;
+  margin: 0;
+}
+/* HOMEPAGE - SERVICES */
+.ourservices-row .row {
+  padding: 80px 0;
+}
+.ourservices-services img {
+  margin-bottom: 10px;
+}
+.ourservices-services h5 {
+  font: normal normal bold 16px/45px Montserrat;
+  letter-spacing: 0px;
+  color: #4A4848;
+}
+.ourservices-services p {
+  font: normal normal normal 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #4A4848;
+  text-align: center;
+  width: 65%;
 }
 /* FOOTER */
 .footer {
