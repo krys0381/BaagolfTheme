@@ -78,5 +78,51 @@
   </div>
 
 </div>
+
+<!-- HOMEPAGE - BECOME A MEMBER -->
+
+<div class="become-container container-fluid overflow-hidden">
+  <div class="container">
+    <div class="row d-flex justify-content-between">
+      <img class="become-image col-lg-6 col-sm-12 col-12" src="<?php echo get_stylesheet_directory_uri() . "/images/front-view-young-golfers-high-fiving.jpeg" ?>" alt="">
+      <div class="become-text-container d-flex justify-content-center flex-column col-lg-5 col-sm-12 col-12">
+        <div class="become-text-content-container">
+          <h2 class="my-2">
+            Become a Member
+          </h2>
+          <p class="become-text-p">
+            Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet est. Sed ut euismod quam. Suspendisse potenti. Aliquam fringilla orci tincidunt, ullamcorper erat in, malesuada metus. Vivamus luctus maximus vestibulum. Donec et enim vitae tellus auctor ornare. Aenean leo diam, feugiat sed nulla sed, consequat venenatis est. Praesent commodo consequat pharetra. Fusce fermentum ante ac metus interdum elementum. Nam arcu lectus, lacinia non augue a, mollis bibendum augue.
+          </p>
+          <div class="become-text-content-container col-lg-12 col-sm-12 col-12 d-flex justify-content-start align-item-center">
+            <button type="button" class="btn btn-primary btn-lg col-lg-6 col-sm-12 col-12">LEARN MORE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- HOMEPAGE - BECOME A SPONSOR -->
+
+<div class="become-container container-fluid overflow-hidden">
+  <div class="container">
+    <div class="row d-flex justify-content-between">
+      <div class="become-text-container d-flex justify-content-center flex-column col-lg-5 col-sm-12 col-12">
+        <div class="become-text-content-container">
+          <h2 class="my-2">
+            Become a Sponsor
+          </h2>
+          <p class="become-text-p">
+            Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet est. Sed ut euismod quam. Suspendisse potenti. Aliquam fringilla orci tincidunt, ullamcorper erat in, malesuada metus. Vivamus luctus maximus vestibulum. Donec et enim vitae tellus auctor ornare. Aenean leo diam, feugiat sed nulla sed, consequat venenatis est. Praesent commodo consequat pharetra. Fusce fermentum ante ac metus interdum elementum. Nam arcu lectus, lacinia non augue a, mollis bibendum augue.
+          </p>
+          <div class="become-text-content-container col-lg-12 col-sm-12 col-12 d-flex justify-content-start align-item-center">
+            <button type="button" class="btn btn-primary btn-lg col-lg-6 col-sm-12 col-12">LEARN MORE</button>
+          </div>
+        </div>
+      </div>
+      <img class="become-image col-lg-6 col-sm-12 col-12" src="<?php echo get_stylesheet_directory_uri() . "/images/golf-friends-shaking-hands-golf-field.jpeg" ?>" alt="">
+    </div>
+  </div>
+</div>
     
 <?php get_footer() ?>

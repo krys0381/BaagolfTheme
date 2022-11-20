@@ -126,7 +126,7 @@ z-index: 1;
 
 .ourservices-row {
     .row {
-        padding: 80px 0; 
+        padding-top: 80px; 
     }
 }
  
@@ -148,6 +148,51 @@ z-index: 1;
         text-align: center;
 
         width: 65%;
+    }
+}
+
+/* HOMEPAGE - BECOME A MEMBER & BECOME A SPONSOR */
+
+.become-container {
+    background-color: $primarybackgroundcolor;
+
+    .row{
+        padding: 80px 0;
+          
+        .member-image {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 450px;
+        }
+
+        .become-text-container {
+            
+            h2 {
+                text-align: left;
+                font: normal normal bold 32px/45px Montserrat;
+                letter-spacing: 0px;
+                color: $darktextcolor;
+                margin: 0 0 20px 0!important;
+            }
+
+            .become-text-p{
+                text-align: left;
+                font: normal normal normal 16px/24px Montserrat;
+                letter-spacing: 0px;
+                color: $darktextcolor;
+                margin: 0 0 20px 0!important;
+            }
+
+            .btn-primary{
+                padding: 15px 0;
+                font: normal normal normal 16px/24px Montserrat;
+                border-radius: 0;
+                border-color: $darktextcolor;
+                color: $darktextcolor;
+                background: $primarybackgroundcolor 0% 0% no-repeat padding-box;
+            }
+        }
     }
 }
 
