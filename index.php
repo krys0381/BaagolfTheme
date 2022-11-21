@@ -79,6 +79,100 @@
 
 </div>
 
+<!-- HOMEPAGE - OUR GOLF COURSES -->
+
+<div class="golfcourses-component container-fluid">
+  
+  <div class="golfcourses-row g-0 container">
+    <div class="row d-flex justify-content-between align-items-start">
+      <div class="col-lg-12 col-sm-12 col-12 d-flex flex-column align-items-center">
+        <div class="golfcourses-container d-flex flex-column justify-content-between">
+          <div class="golfcourses-text-container">
+            <h2>Our Golf Courses</h2>
+          </div>
+          <div class="golfcourses-text-container d-flex flex-column align-items-start">
+            <p>
+              Proin ex ipsum, facilisis id tincidunt sed, vulputate in lacus. Donec pharetra faucibus leo, vitae vestibulum leo scelerisque eu. Nam enim dolor, porta at ex ut, eleifend tristique metus. Integer sit am
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-group">
+    <div class="col-lg-4 col-sm-12 col-12 d-flex justify-content-center">
+      <div class="card">
+        <img src="<?php echo get_stylesheet_directory_uri() . "/images/side-view-man-playing-golf.jpeg;" ?>" class="card-img-top" alt="...">
+        <div class="card-body">
+
+          <h5 class="card-title">18-Hole Course</h5>
+          <div class="card-text-container d-flex">
+            <img src="<?php echo get_stylesheet_directory_uri() . "/images/golf_clubs.png;" ?>" width="26" height="26" alt="">
+            <p class="card-text">72 Par</p>
+          </div>
+          <div class="card-text-container d-flex">
+            <img src="<?php echo get_stylesheet_directory_uri() . "/images/golf_clubs.png;" ?>" width="26" height="26" alt="">
+            <p class="card-text">18 Holes</p>
+          </div>
+          <div class="card-text-container d-flex ">
+            <img src="<?php echo get_stylesheet_directory_uri() . "/images/golf_clubs.png;" ?>" width="26" height="26" alt="">
+            <p class="card-text">Open</p>
+          </div>
+          <button type="button" class="btn btn-primary btn-lg col-lg-6 col-sm-12 col-12">LEARN MORE</button>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-12 col-12 d-flex justify-content-center">
+      <div class="card">
+        <img src="<?php echo get_stylesheet_directory_uri() . "/images/side-view-man-playing-golf.jpeg;" ?>" class="card-img-top" alt="...">
+        <div class="card-body">
+          
+          <h5 class="card-title">Pay & Play Par 4 course</h5>
+          <div class="card-text-container d-flex">
+            <img src="<?php echo get_stylesheet_directory_uri() . "/images/golf_clubs.png;" ?>" width="26" height="26" alt="">
+            <p class="card-text">4 Par</p>
+          </div>
+          <div class="card-text-container d-flex">
+            <img src="<?php echo get_stylesheet_directory_uri() . "/images/golf_clubs.png;" ?>" width="26" height="26" alt="">
+            <p class="card-text">9 Holes</p>
+          </div>
+          <div class="card-text-container d-flex ">
+            <img src="<?php echo get_stylesheet_directory_uri() . "/images/golf_clubs.png;" ?>" width="26" height="26" alt="">
+            <p class="card-text">Open</p>
+          </div>
+          <button type="button" class="btn btn-primary btn-lg col-lg-6 col-sm-12 col-12">LEARN MORE</button>        
+        
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-12 col-12 d-flex justify-content-center">
+      <div class="card">
+        <img src="<?php echo get_stylesheet_directory_uri() . "/images/side-view-man-playing-golf.jpeg;" ?>" class="card-img-top" alt="...">
+        <div class="card-body">
+
+          <h5 class="card-title">Pay & Play Par 3 course</h5>
+          <div class="card-text-container d-flex">
+            <img src="<?php echo get_stylesheet_directory_uri() . "/images/golf_clubs.png;" ?>" width="26" height="26" alt="">
+            <p class="card-text">3 Par</p>
+          </div>
+          <div class="card-text-container d-flex">
+            <img src="<?php echo get_stylesheet_directory_uri() . "/images/golf_clubs.png;" ?>" width="26" height="26" alt="">
+            <p class="card-text">9 Holes</p>
+          </div>
+          <div class="card-text-container d-flex ">
+            <img src="<?php echo get_stylesheet_directory_uri() . "/images/golf_clubs.png;" ?>" width="26" height="26" alt="">
+            <p class="card-text">Open</p>
+          </div>
+          <button type="button" class="btn btn-primary btn-lg col-lg-6 col-sm-12 col-12">LEARN MORE</button>        
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- HOMEPAGE - BECOME A MEMBER -->
 
 <div class="become-container container-fluid overflow-hidden">
@@ -88,7 +182,7 @@
       <div class="become-text-container d-flex justify-content-center flex-column col-lg-5 col-sm-12 col-12">
         <div class="become-text-content-container">
           <h2 class="my-2">
-            Become a Member
+            Enjoy Loads of Exciting Benefits from our Membership
           </h2>
           <p class="become-text-p">
             Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet est. Sed ut euismod quam. Suspendisse potenti. Aliquam fringilla orci tincidunt, ullamcorper erat in, malesuada metus. Vivamus luctus maximus vestibulum. Donec et enim vitae tellus auctor ornare. Aenean leo diam, feugiat sed nulla sed, consequat venenatis est. Praesent commodo consequat pharetra. Fusce fermentum ante ac metus interdum elementum. Nam arcu lectus, lacinia non augue a, mollis bibendum augue.

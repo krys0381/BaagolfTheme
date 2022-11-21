@@ -57,7 +57,7 @@ Description: Used for the Blåvandshuk Golf website.
   padding-bottom: 50px;
 }
 .hero-container .content-container .btn-primary {
-  padding: 15px 0;
+  padding: 10px 0;
   border-radius: 0;
   border-color: white;
   color: #4A4848;
@@ -113,7 +113,72 @@ Description: Used for the Blåvandshuk Golf website.
   text-align: center;
   width: 65%;
 }
-/* HOMEPAGE - BECOME A MEMBER */
+/* HOMEPAGE - OUR GOLF COURSES */
+.golfcourses-row .row {
+  padding-top: 20px;
+}
+.golfcourses-component {
+  background-color: #EFEFEF;
+}
+.golfcourses-component .card-group {
+  margin: 40px 0 0 0;
+}
+.golfcourses-component .card-group .card {
+  border: 1px solid #4A4848;
+  border-radius: 0;
+  width: 85%;
+}
+.golfcourses-component .card-group .card img {
+  border-radius: 0;
+}
+.golfcourses-component .card-group .card .card-body {
+  padding: 25px;
+}
+.golfcourses-component .card-group .card .card-body h5 {
+  font: normal normal normal 24px/45px Montserrat;
+  letter-spacing: 0px;
+  color: #4A4848;
+}
+.golfcourses-component .card-group .card .card-body .card-text-container {
+  padding: 10px 0;
+}
+.golfcourses-component .card-group .card .card-body .card-text-container p {
+  margin-left: 10px;
+  font: normal normal normal 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #4A4848;
+}
+.golfcourses-component .card-group .card .card-body .btn-primary {
+  margin-top: 10px;
+  padding: 10px 0;
+  font: normal normal normal 16px/24px Montserrat;
+  border-radius: 0;
+  border-color: #4A4848;
+  color: #4A4848;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.golfcourses-container {
+  width: 75%;
+}
+.golfcourses-container .golfcourses-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.golfcourses-container .golfcourses-text-container h2 {
+  font: normal normal bold 32px/45px Montserrat;
+  letter-spacing: 0px;
+  color: #4A4848;
+  margin: 0;
+}
+.golfcourses-container .golfcourses-text-container p {
+  font: normal normal normal 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #4A4848;
+  margin: 0;
+}
+/* HOMEPAGE - BECOME A MEMBER & BECOME A SPONSOR */
 .become-container {
   background-color: #EFEFEF;
 }
@@ -141,7 +206,7 @@ Description: Used for the Blåvandshuk Golf website.
   margin: 0 0 20px 0 !important;
 }
 .become-container .row .become-text-container .btn-primary {
-  padding: 15px 0;
+  padding: 10px 0;
   font: normal normal normal 16px/24px Montserrat;
   border-radius: 0;
   border-color: #4A4848;
