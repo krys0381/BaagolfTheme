@@ -51,91 +51,57 @@ Description: Used for the Blåvandshuk Golf website.
 
 /* HOMEPAGE - HERO */
 
-/* .abouthero-container {
+.hero-content-container{
+    z-index: 1;
+}
+
+.hero-component{
+    position: relative;
+    min-height: 650px;
     background-color: $primarybackgroundcolor;
-    min-height: 80vh;
-    position: relative;
 }
 
-.videoContainer {
-    position: absolute;
+.bg-image-container{
     width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
 
-    iframe {
+    /* img {
         width: 100%;
-        height: 100%;
+        filter: brightness(60%);
+    } */
 
-        .content-container{
-            padding-bottom: 50px;
-    
-            .btn-primary{
-                padding: 10px 0;
-                border-radius: 0;
-                border-color: black;
-                color: $darktextcolor;
-                background: black 0% 0% no-repeat padding-box;
-            }
-        }
-    }
-} */
-
-.hero-container{
-    width: 100vw;
-    min-height: 90vh;
-    position: relative;
-
-    .hero-image-container{
-        background-size: cover;
-        background-position: center;
+    video {
         width: 100%;
-        position: absolute;
-        
-        img {
-            width: 100%;
-        }
-    }
-
-    .content-container{
-        padding-bottom: 50px;
-    
-        h1 {
-            font: normal normal normal 96px/125px Sun Valley - Demo;
-            letter-spacing: 0px;
-            color: #F4F4F5;
-        }
-    
-        h3 {
-            text-align: center;
-            font: normal normal normal 40px/56px Montserrat;
-            letter-spacing: 0px;
-            color: #F4F4F5;
-            width: 100%;
-        }
-    
-        .btn-primary {
-            padding: 10px 0;
-            font: normal normal normal 20px/24px Montserrat;
-            letter-spacing: 0px;
-            color: #FFFFFF;
-            border-radius: 0;
-            background: #0C365E 0% 0% no-repeat padding-box;
-        }
+        filter: brightness(60%);
     }
 }
 
-.hero-title,
-.hero-subtitle,
-.btn-primary{
-z-index: 1;
+.hero-content-container{
+    padding-bottom: 50px;
+
+    h1 {
+        font: normal normal normal 96px/125px Sun Valley - Demo;
+        letter-spacing: 0px;
+        color: #F4F4F5;
+    }
+
+    h3 {
+        text-align: center;
+        font: normal normal normal 40px/56px Montserrat;
+        letter-spacing: 0px;
+        color: #F4F4F5;
+        width: 100%;
+    }
+
+    .btn-primary {
+        padding: 10px 0;
+        font: normal normal normal 20px/24px Montserrat;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        border-radius: 0;
+        border-color: $tertiarybackgroundcolor;
+        background: $tertiarybackgroundcolor 0% 0% no-repeat padding-box;
+    }
 }
 
 /* HOMEPAGE - INTRODUCTION */
@@ -161,7 +127,7 @@ z-index: 1;
             h2 {
                 font: normal normal bold 32px/45px Montserrat;
                 letter-spacing: 0px;
-                color: $darktextcolor;
+                color: $tertiarybackgroundcolor;
                 margin: 0;
             }
     
@@ -191,7 +157,7 @@ z-index: 1;
     h5 {
         font: normal normal bold 16px/45px Montserrat;
         letter-spacing: 0px;
-        color: $darktextcolor;
+        color: $tertiarybackgroundcolor;
     }
 
     p {
@@ -311,7 +277,7 @@ z-index: 1;
                 text-align: left;
                 font: normal normal bold 32px/45px Montserrat;
                 letter-spacing: 0px;
-                color: $darktextcolor;
+                color: $tertiarybackgroundcolor;
                 margin: 0 0 20px 0!important;
             }
 
@@ -327,8 +293,8 @@ z-index: 1;
                 padding: 10px 0;
                 font: normal normal normal 16px/24px Montserrat;
                 border-radius: 0;
-                border-color: $darktextcolor;
-                color: $darktextcolor;
+                border-color: $tertiarybackgroundcolor;
+                color: $tertiarybackgroundcolor;
                 background: $primarybackgroundcolor 0% 0% no-repeat padding-box;
             }
         }
@@ -353,7 +319,7 @@ z-index: 1;
             h2 {
                 font: normal normal bold 32px/45px Montserrat;
                 letter-spacing: 0px;
-                color: $darktextcolor;
+                color: $tertiarybackgroundcolor;
                 margin: 0;
             }
         }
@@ -445,6 +411,38 @@ z-index: 1;
             }
         }
     }  
+}
+
+/* NEWSLETTER */
+
+.newsletter-content-container{
+    z-index: 1;
+}
+
+.newsletter-component{
+    position: relative;
+    min-height: 500px;
+}
+
+.bg-image-container{
+    width: 100%;
+    position: absolute;
+
+    img {
+        width: 100%;
+        opacity: 90%;
+        filter: brightness(75%);
+    }
+
+    .btn-primary {
+        padding: 10px 0;
+        font: normal normal normal 20px/24px Montserrat;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        border-radius: 0;
+        border-color: $tertiarybackgroundcolor;
+        background: $tertiarybackgroundcolor 0% 0% no-repeat padding-box;
+    }
 }
 
 /* FOOTER */

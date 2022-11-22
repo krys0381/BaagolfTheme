@@ -2,32 +2,23 @@
 
 <!-- HOMEPAGE - HERO -->
 
-<!-- <div class="abouthero-container container-fluid">
-  <div class="videoContainer">
-    <iframe class="videoContainer__video" width="x" height="y" src="https://www.youtube.com/embed/g8VUtUnfiPY" allowfullscreen frameborder="0">
-      <div class="content-container d-flex flex-column justify-content-center align-items-center mb-5">
-        <h1 class="hero-title">Rhoncus tincidunt</h1>
-        <h3 class="hero-subtitle col-lg-8 my-5">
+<div class="hero-component container-fluid d-flex align-items-center justify-content-center overflow-hidden">  
+  <div class="container content-container d-flex align-items-center justify-content-center">
+    <div class="row d-flex flex-column align-items-center justify-content-start">
+      <div class="hero-content-container col-lg-10 col-sm-12 col-12 d-flex flex-column flex-wrap align-items-center justify-content-center">
+        <h1>Rhoncus tincidunt</h1>
+        <h3 class="col-lg-8 my-3">
           Duis porta, ligula rhoncus euismod pretium, nisi tellus eleifend odio, luctus viverra sem dolor id</h3>
-        <button type="button" class="btn btn-primary btn-lg 2 col-lg-4 col-md-12 col-sm-12 col-12">BOOK NOW</button>
+        <button type="button" class="btn btn-primary btn-lg 2 col-lg-2 col-md-12 col-sm-12 col-12">BOOK NOW</button>
       </div>
-    </iframe>     
-  </div>
-</div> -->
-
-<div class="container-fluid hero-container d-flex flex-column justify-content-center align-items-center">
-  <div class="container ">
-    <div class="row ">
-        <div class="content-container d-flex flex-column justify-content-center align-items-center mb-5">
-            <h1 class="hero-title">Rhoncus tincidunt</h1>
-            <h3 class="hero-subtitle col-lg-8 my-5">
-              Duis porta, ligula rhoncus euismod pretium, nisi tellus eleifend odio, luctus viverra sem dolor id</h3>
-            <button type="button" class="btn btn-primary btn-lg 2 col-lg-4 col-md-12 col-sm-12 col-12">BOOK NOW</button>
-        </div>
     </div>
   </div>
-  <div class="hero-image-container d-none d-xl-flex">
-    <img src="<?php echo get_stylesheet_directory_uri() . "/images/side-view-man-playing-golf.jpeg" ?>" alt="">
+  <div class="bg-image-container d-none d-xl-flex align-item-center justify-self-center">
+    <!-- <img src="<?php echo get_stylesheet_directory_uri() . "/images/side-view-man-playing-golf.jpeg" ?>" alt=""> -->
+    <video width="x" height="650px" autoplay muted loop>
+      <source src="<?php echo get_stylesheet_directory_uri() . "/Animated statistics_1.mp4" ?>" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>    
   </div>
 </div>
 
@@ -217,7 +208,7 @@
             Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet est. Sed ut euismod quam. Suspendisse potenti. Aliquam fringilla orci tincidunt, ullamcorper erat in, malesuada metus. Vivamus luctus maximus vestibulum. Donec et enim vitae tellus auctor ornare. Aenean leo diam, feugiat sed nulla sed, consequat venenatis est. Praesent commodo consequat pharetra. Fusce fermentum ante ac metus interdum elementum. Nam arcu lectus, lacinia non augue a, mollis bibendum augue.
           </p>
           <div class="homepage-text-content-container col-lg-12 col-sm-12 col-12 d-flex justify-content-start align-item-center">
-            <button type="button" class="btn btn-primary btn-lg col-lg-6 col-sm-12 col-12">BECOME A MEMBER</button>
+            <button type="button" class="btn btn-primary btn-lg col-lg-5 col-sm-12 col-12">BECOME A MEMBER</button>
           </div>
         </div>
       </div>
@@ -239,7 +230,7 @@
             Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet est. Sed ut euismod quam. Suspendisse potenti. Aliquam fringilla orci tincidunt, ullamcorper erat in, malesuada metus. Vivamus luctus maximus vestibulum. Donec et enim vitae tellus auctor ornare. Aenean leo diam, feugiat sed nulla sed, consequat venenatis est. Praesent commodo consequat pharetra. Fusce fermentum ante ac metus interdum elementum. Nam arcu lectus, lacinia non augue a, mollis bibendum augue.
           </p>
           <div class="homepage-text-content-container col-lg-12 col-sm-12 col-12 d-flex justify-content-start align-item-center">
-            <button type="button" class="btn btn-primary btn-lg col-lg-6 col-sm-12 col-12">BOOK NOW</button>
+            <button type="button" class="btn btn-primary btn-lg col-lg-4 col-sm-12 col-12">BOOK NOW</button>
           </div>
         </div>
       </div>
@@ -267,7 +258,7 @@
             Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet est. Sed ut euismod quam. Suspendisse potenti. Aliquam fringilla orci tincidunt, ullamcorper erat in, malesuada metus. Vivamus luctus maximus vestibulum. Donec et enim vitae tellus auctor ornare. Aenean leo diam, feugiat sed nulla sed, consequat venenatis est. Praesent commodo consequat pharetra. Fusce fermentum ante ac metus interdum elementum. Nam arcu lectus, lacinia non augue a, mollis bibendum augue.
           </p>
           <div class="homepage-text-content-container col-lg-12 col-sm-12 col-12 d-flex justify-content-start align-item-center">
-            <button type="button" class="btn btn-primary btn-lg col-lg-6 col-sm-12 col-12">LEARN MORE</button>
+            <button type="button" class="btn btn-primary btn-lg col-lg-4 col-sm-12 col-12">LEARN MORE</button>
           </div>
         </div>
       </div>
@@ -289,7 +280,7 @@
             Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet est. Sed ut euismod quam. Suspendisse potenti. Aliquam fringilla orci tincidunt, ullamcorper erat in, malesuada metus. Vivamus luctus maximus vestibulum. Donec et enim vitae tellus auctor ornare. Aenean leo diam, feugiat sed nulla sed, consequat venenatis est. Praesent commodo consequat pharetra. Fusce fermentum ante ac metus interdum elementum. Nam arcu lectus, lacinia non augue a, mollis bibendum augue.
           </p>
           <div class="homepage-text-content-container col-lg-12 col-sm-12 col-12 d-flex justify-content-start align-item-center">
-            <button type="button" class="btn btn-primary btn-lg col-lg-6 col-sm-12 col-12">LEARN MORE</button>
+            <button type="button" class="btn btn-primary btn-lg col-lg-4 col-sm-12 col-12">LEARN MORE</button>
           </div>
         </div>
       </div>
@@ -425,4 +416,21 @@
   </div>
 
 </div>
+
+<!-- NEWSLETTER -->
+
+<div class="newsletter-component container-fluid d-flex align-items-center justify-content-center overflow-hidden">  
+  <div class="container content-container d-flex align-items-center justify-content-center">
+    <div class="row d-flex flex-column align-items-center justify-content-start">
+      <div class="newsletter-content-container col-lg-6 col-sm-12 col-12 d-flex flex-column flex-wrap align-items-center justify-content-center">
+        <h1>Interested in collaboration?</h1>
+        <button type="button" class="btn btn-primary btn-lg col-lg-12 col-sm-12 col-12 mt-3">LET'S TALK</button>   
+      </div>
+    </div>
+  </div>
+  <div class="bg-image-container d-none d-xl-flex align-item-center justify-self-center">
+    <img src="<?php echo get_stylesheet_directory_uri() . "/images/pexels-nadim-shaikh-7758348.jpeg" ?>" alt="">
+  </div>
+</div>
+    
 <?php get_footer() ?>

@@ -40,81 +40,49 @@ Description: Used for the Blåvandshuk Golf website.
   padding: 0;
 }
 /* HOMEPAGE - HERO */
-/* .abouthero-container {
-    background-color: $primarybackgroundcolor;
-    min-height: 80vh;
-    position: relative;
+.hero-content-container {
+  z-index: 1;
 }
-
-.videoContainer {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    iframe {
-        width: 100%;
-        height: 100%;
-
-        .content-container{
-            padding-bottom: 50px;
-    
-            .btn-primary{
-                padding: 10px 0;
-                border-radius: 0;
-                border-color: black;
-                color: $darktextcolor;
-                background: black 0% 0% no-repeat padding-box;
-            }
-        }
-    }
-} */
-.hero-container {
-  width: 100vw;
-  min-height: 90vh;
+.hero-component {
   position: relative;
+  min-height: 650px;
+  background-color: #EFEFEF;
 }
-.hero-container .hero-image-container {
-  background-size: cover;
-  background-position: center;
+.bg-image-container {
   width: 100%;
   position: absolute;
+  /* img {
+        width: 100%;
+        filter: brightness(60%);
+    } */
 }
-.hero-container .hero-image-container img {
+.bg-image-container video {
   width: 100%;
+  filter: brightness(60%);
 }
-.hero-container .content-container {
+.hero-content-container {
   padding-bottom: 50px;
 }
-.hero-container .content-container h1 {
+.hero-content-container h1 {
   font: normal normal normal 96px/125px Sun Valley - Demo;
   letter-spacing: 0px;
   color: #F4F4F5;
 }
-.hero-container .content-container h3 {
+.hero-content-container h3 {
   text-align: center;
   font: normal normal normal 40px/56px Montserrat;
   letter-spacing: 0px;
   color: #F4F4F5;
   width: 100%;
 }
-.hero-container .content-container .btn-primary {
+.hero-content-container .btn-primary {
   padding: 10px 0;
   font: normal normal normal 20px/24px Montserrat;
   letter-spacing: 0px;
   color: #FFFFFF;
   border-radius: 0;
+  border-color: #0C365E;
   background: #0C365E 0% 0% no-repeat padding-box;
-}
-.hero-title, .hero-subtitle, .btn-primary {
-  z-index: 1;
 }
 /* HOMEPAGE - INTRODUCTION */
 .introduction-component {
@@ -135,7 +103,7 @@ Description: Used for the Blåvandshuk Golf website.
 .introduction-component .introduction-container .introduction-text-container h2 {
   font: normal normal bold 32px/45px Montserrat;
   letter-spacing: 0px;
-  color: #09131D;
+  color: #0C365E;
   margin: 0;
 }
 .introduction-component .introduction-container .introduction-text-container p {
@@ -154,7 +122,7 @@ Description: Used for the Blåvandshuk Golf website.
 .ourservices-services h5 {
   font: normal normal bold 16px/45px Montserrat;
   letter-spacing: 0px;
-  color: #09131D;
+  color: #0C365E;
 }
 .ourservices-services p {
   font: normal normal normal 16px/24px Montserrat;
@@ -248,7 +216,7 @@ Description: Used for the Blåvandshuk Golf website.
   text-align: left;
   font: normal normal bold 32px/45px Montserrat;
   letter-spacing: 0px;
-  color: #09131D;
+  color: #0C365E;
   margin: 0 0 20px 0 !important;
 }
 .homepage-container .row .homepage-text-container .homepage-text-p {
@@ -262,8 +230,8 @@ Description: Used for the Blåvandshuk Golf website.
   padding: 10px 0;
   font: normal normal normal 16px/24px Montserrat;
   border-radius: 0;
-  border-color: #09131D;
-  color: #09131D;
+  border-color: #0C365E;
+  color: #0C365E;
   background: #EFEFEF 0% 0% no-repeat padding-box;
 }
 /* HOMEPAGE - TRUSTED BY */
@@ -279,7 +247,7 @@ Description: Used for the Blåvandshuk Golf website.
 .trustedby-component .trustedby-container .trustedby-header h2 {
   font: normal normal bold 32px/45px Montserrat;
   letter-spacing: 0px;
-  color: #09131D;
+  color: #0C365E;
   margin: 0;
 }
 .trustedby-component .trustedby-container .trustedby-images-container {
@@ -348,6 +316,32 @@ Description: Used for the Blåvandshuk Golf website.
   border-color: #0C365E;
   color: #0C365E;
   background: #D6EEFD 0% 0% no-repeat padding-box;
+}
+/* NEWSLETTER */
+.newsletter-content-container {
+  z-index: 1;
+}
+.newsletter-component {
+  position: relative;
+  min-height: 500px;
+}
+.bg-image-container {
+  width: 100%;
+  position: absolute;
+}
+.bg-image-container img {
+  width: 100%;
+  opacity: 90%;
+  filter: brightness(75%);
+}
+.bg-image-container .btn-primary {
+  padding: 10px 0;
+  font: normal normal normal 20px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  border-radius: 0;
+  border-color: #0C365E;
+  background: #0C365E 0% 0% no-repeat padding-box;
 }
 /* FOOTER */
 .footer {
