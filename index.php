@@ -2,18 +2,33 @@
 
 <!-- HOMEPAGE - HERO -->
 
-<div class="container-fluid hero-container  d-flex flex-column justify-content-center align-items-center">
-    <div class="container ">
-      <div class="row ">
-          <div class="content-container d-flex flex-column justify-content-center align-items-center mb-5">
-              <h1 class="hero-title">Rhoncus tincidunt</h1>
-              <h3 class="hero-subtitle col-lg-8 my-5">
-                Duis porta, ligula rhoncus euismod pretium, nisi tellus eleifend odio, luctus viverra sem dolor id</h3>
-              <button type="button" class="btn btn-primary btn-lg 2 col-lg-4 col-md-12 col-sm-12 col-12">BOOK NOW</button>
-          </div>
+<!-- <div class="abouthero-container container-fluid">
+  <div class="videoContainer">
+    <iframe class="videoContainer__video" width="x" height="y" src="https://www.youtube.com/embed/g8VUtUnfiPY" allowfullscreen frameborder="0">
+      <div class="content-container d-flex flex-column justify-content-center align-items-center mb-5">
+        <h1 class="hero-title">Rhoncus tincidunt</h1>
+        <h3 class="hero-subtitle col-lg-8 my-5">
+          Duis porta, ligula rhoncus euismod pretium, nisi tellus eleifend odio, luctus viverra sem dolor id</h3>
+        <button type="button" class="btn btn-primary btn-lg 2 col-lg-4 col-md-12 col-sm-12 col-12">BOOK NOW</button>
       </div>
+    </iframe>     
+  </div>
+</div> -->
+
+<div class="container-fluid hero-container d-flex flex-column justify-content-center align-items-center">
+  <div class="container ">
+    <div class="row ">
+        <div class="content-container d-flex flex-column justify-content-center align-items-center mb-5">
+            <h1 class="hero-title">Rhoncus tincidunt</h1>
+            <h3 class="hero-subtitle col-lg-8 my-5">
+              Duis porta, ligula rhoncus euismod pretium, nisi tellus eleifend odio, luctus viverra sem dolor id</h3>
+            <button type="button" class="btn btn-primary btn-lg 2 col-lg-4 col-md-12 col-sm-12 col-12">BOOK NOW</button>
+        </div>
     </div>
-    <div class="hero-image-container d-none d-xl-flex"><img src="<?php echo get_stylesheet_directory_uri() . "/images/side-view-man-playing-golf.jpeg" ?>" alt=""></div>
+  </div>
+  <div class="hero-image-container d-none d-xl-flex">
+    <img src="<?php echo get_stylesheet_directory_uri() . "/images/side-view-man-playing-golf.jpeg" ?>" alt="">
+  </div>
 </div>
 
 <!-- HOMEPAGE - INTRODUCTION -->
@@ -103,20 +118,24 @@
   <div class="card-group">
     <div class="col-lg-4 col-sm-12 col-12 d-flex justify-content-center">
       <div class="card">
-        <img src="<?php echo get_stylesheet_directory_uri() . "/images/side-view-man-playing-golf.jpeg" ?>" class="card-img-top" alt="...">
+        <img src="<?php echo get_stylesheet_directory_uri() . "/images/professional-golfer-bali-indonesia.jpeg" ?>" class="card-img-top" alt="...">
         <div class="card-body">
 
           <h5 class="card-title">18-Hole Course</h5>
           <div class="card-text-container d-flex">
-            <img src="<?php echo get_stylesheet_directory_uri() . "/images/golf_clubs.png" ?>" width="26" height="26" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri() . "/images/par.png" ?>" width="26" height="26" alt="">
             <p class="card-text">72 Par</p>
           </div>
           <div class="card-text-container d-flex">
-            <img src="<?php echo get_stylesheet_directory_uri() . "/images/golf_clubs.png" ?>" width="26" height="26" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri() . "/images/holes.png" ?>" width="26" height="26" alt="">
             <p class="card-text">18 Holes</p>
           </div>
+          <div class="card-text-container d-flex">
+            <img src="<?php echo get_stylesheet_directory_uri() . "/images/ruler.png" ?>" width="26" height="26" alt="">
+            <p class="card-text">6057 meters</p>
+          </div>
           <div class="card-text-container d-flex ">
-            <img src="<?php echo get_stylesheet_directory_uri() . "/images/golf_clubs.png" ?>" width="26" height="26" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri() . "/images/alert.png" ?>" width="26" height="26" alt="">
             <p class="card-text">Open</p>
           </div>
           <button type="button" class="btn btn-primary btn-lg col-lg-6 col-sm-12 col-12">LEARN MORE</button>
@@ -126,20 +145,24 @@
     </div>
     <div class="col-lg-4 col-sm-12 col-12 d-flex justify-content-center">
       <div class="card">
-        <img src="<?php echo get_stylesheet_directory_uri() . "/images/side-view-man-playing-golf.jpeg" ?>" class="card-img-top" alt="...">
+        <img src="<?php echo get_stylesheet_directory_uri() . "/images/pexels-picas-joe-11363153.jpeg" ?>" class="card-img-top" alt="...">
         <div class="card-body">
           
           <h5 class="card-title">Pay & Play Par 4 course</h5>
           <div class="card-text-container d-flex">
-            <img src="<?php echo get_stylesheet_directory_uri() . "/images/golf_clubs.png" ?>" width="26" height="26" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri() . "/images/par.png" ?>" width="26" height="26" alt="">
             <p class="card-text">4 Par</p>
           </div>
           <div class="card-text-container d-flex">
-            <img src="<?php echo get_stylesheet_directory_uri() . "/images/golf_clubs.png" ?>" width="26" height="26" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri() . "/images/holes.png" ?>" width="26" height="26" alt="">
             <p class="card-text">9 Holes</p>
           </div>
+          <div class="card-text-container d-flex">
+            <img src="<?php echo get_stylesheet_directory_uri() . "/images/ruler.png" ?>" width="26" height="26" alt="">
+            <p class="card-text">3386 meters</p>
+          </div>
           <div class="card-text-container d-flex ">
-            <img src="<?php echo get_stylesheet_directory_uri() . "/images/golf_clubs.png" ?>" width="26" height="26" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri() . "/images/alert.png" ?>" width="26" height="26" alt="">
             <p class="card-text">Open</p>
           </div>
           <button type="button" class="btn btn-primary btn-lg col-lg-6 col-sm-12 col-12">LEARN MORE</button>        
@@ -149,20 +172,24 @@
     </div>
     <div class="col-lg-4 col-sm-12 col-12 d-flex justify-content-center">
       <div class="card">
-        <img src="<?php echo get_stylesheet_directory_uri() . "/images/side-view-man-playing-golf.jpeg" ?>" class="card-img-top" alt="...">
+        <img src="<?php echo get_stylesheet_directory_uri() . "/images/pexels-mikhail-nilov-9207308.jpeg" ?>" class="card-img-top" alt="...">
         <div class="card-body">
 
           <h5 class="card-title">Pay & Play Par 3 course</h5>
           <div class="card-text-container d-flex">
-            <img src="<?php echo get_stylesheet_directory_uri() . "/images/golf_clubs.png" ?>" width="26" height="26" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri() . "/images/par.png" ?>" width="26" height="26" alt="">
             <p class="card-text">3 Par</p>
           </div>
           <div class="card-text-container d-flex">
-            <img src="<?php echo get_stylesheet_directory_uri() . "/images/golf_clubs.png" ?>" width="26" height="26" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri() . "/images/holes.png" ?>" width="26" height="26" alt="">
             <p class="card-text">9 Holes</p>
           </div>
+          <div class="card-text-container d-flex">
+            <img src="<?php echo get_stylesheet_directory_uri() . "/images/ruler.png" ?>" width="26" height="26" alt="">
+            <p class="card-text">3386 meters</p>
+          </div>
           <div class="card-text-container d-flex ">
-            <img src="<?php echo get_stylesheet_directory_uri() . "/images/golf_clubs.png" ?>" width="26" height="26" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri() . "/images/alert.png" ?>" width="26" height="26" alt="">
             <p class="card-text">Open</p>
           </div>
           <button type="button" class="btn btn-primary btn-lg col-lg-6 col-sm-12 col-12">LEARN MORE</button>        
@@ -178,7 +205,9 @@
 <div class="homepage-container container-fluid overflow-hidden">
   <div class="container">
     <div class="row d-flex justify-content-between">
-      <img class="homepage-image col-lg-6 col-sm-12 col-12" src="<?php echo get_stylesheet_directory_uri() . "/images/front-view-young-golfers-high-fiving.jpeg" ?>" alt="">
+      <div class="homepage-image col-lg-6 col-sm-12 col-12 d-flex align-items-center">
+        <img src="<?php echo get_stylesheet_directory_uri() . "/images/front-view-young-golfers-high-fiving.jpeg" ?>" alt="">
+      </div>
       <div class="homepage-text-container d-flex justify-content-center flex-column col-lg-5 col-sm-12 col-12">
         <div class="homepage-text-content-container">
           <h2 class="my-2">
@@ -214,7 +243,9 @@
           </div>
         </div>
       </div>
-      <img class="homepage-image col-lg-6 col-sm-12 col-12" src="<?php echo get_stylesheet_directory_uri() . "/images/golf-friends-shaking-hands-golf-field.jpeg" ?>" alt="">
+      <div class="homepage-image col-lg-6 col-sm-12 col-12 d-flex align-items-center">
+        <img src="<?php echo get_stylesheet_directory_uri() . "/images/pexels-mikhail-nilov-9207308.jpeg" ?>" alt="">
+      </div>
     </div>
   </div>
 </div>
@@ -224,7 +255,9 @@
 <div class="homepage-container container-fluid overflow-hidden">
   <div class="container">
     <div class="row d-flex justify-content-between">
-      <img class="homepage-image col-lg-6 col-sm-12 col-12" src="<?php echo get_stylesheet_directory_uri() . "/images/front-view-young-golfers-high-fiving.jpeg" ?>" alt="">
+      <div class="homepage-image col-lg-6 col-sm-12 col-12 d-flex align-items-center">
+        <img src="<?php echo get_stylesheet_directory_uri() . "/images/front-view-young-golfers-high-fiving.jpeg" ?>" alt="">
+      </div>
       <div class="homepage-text-container d-flex justify-content-center flex-column col-lg-5 col-sm-12 col-12">
         <div class="homepage-text-content-container">
           <h2 class="my-2">
@@ -260,7 +293,9 @@
           </div>
         </div>
       </div>
-      <img class="homepage-image col-lg-6 col-sm-12 col-12" src="<?php echo get_stylesheet_directory_uri() . "/images/golf-friends-shaking-hands-golf-field.jpeg" ?>" alt="">
+      <div class="homepage-image col-lg-6 col-sm-12 col-12 d-flex align-items-center">
+        <img src="<?php echo get_stylesheet_directory_uri() . "/images/golf-friends-shaking-hands-golf-field.jpeg" ?>" alt="">
+      </div>
     </div>
   </div>
 </div>
@@ -325,11 +360,53 @@
   <div class="container">
     <div class="row">
       <div class="newsupdates-list-container d-flex flex-column align-items-center">
-        <div class="newsupdates-list col-lg-10 col-sm-12 col-12 d-flex flex-wrap mb-5">
-          <div class="newsupdates-list-img col-lg-5 col-sm-12 col-12">
-            <img src="" alt="">
+        <div class="newsupdates-list col-lg-10 col-sm-12 col-12 d-flex flex-wrap">
+          <div class="newsupdates-list-img col-lg-7 col-sm-12 col-12">
+            <img src="<?php echo get_stylesheet_directory_uri() . "/images/professional-golfer-bali-indonesia.jpeg" ?>" alt="">
           </div>
-          <div class="newsupdates-list-description-container col-lg-7 col-sm-12 col-12 d-flex flex-column align-items-start justify-content-center p-5">
+          <div class="newsupdates-list-description-container col-lg-5 col-sm-12 col-12 d-flex flex-column align-items-start justify-content-center p-5">
+            <h5>Lacinia velit sodales</h5>       
+            <div class="newsupdates-list-description mb-4">
+              <p>
+                Phasellus dignissim, tellus in pellentesque mollis, mauris orci dignissim nisl, id gravida nunc enim quis nibh. Maecenas convallis eros a ante dignissim, vitae elementum metus facilisis. Cras in maximus sem. Praesent libero augue, ornare eget quam sed,
+              </p>
+            </div>
+            <div class="newsupdates-list-description d-flex col-lg-12 col-sm-12 col-12 flex-wrap">
+              <div class="newsupdates-btn col-lg-5 col-sm-12 col-12 me-3 mb-3">
+                <button type="button" class=" btn btn-primary btn-lg col-lg-12 col-sm-12 col-12">READ MORE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="newsupdates-list-container d-flex flex-column align-items-center">
+        <div class="newsupdates-list col-lg-10 col-sm-12 col-12 d-flex flex-wrap">
+          <div class="newsupdates-list-img col-lg-7 col-sm-12 col-12">
+            <img src="<?php echo get_stylesheet_directory_uri() . "/images/professional-golfer-bali-indonesia.jpeg" ?>" alt="">
+          </div>
+          <div class="newsupdates-list-description-container col-lg-5 col-sm-12 col-12 d-flex flex-column align-items-start justify-content-center p-5">
+            <h5>Lacinia velit sodales</h5>       
+            <div class="newsupdates-list-description mb-4">
+              <p>
+                Phasellus dignissim, tellus in pellentesque mollis, mauris orci dignissim nisl, id gravida nunc enim quis nibh. Maecenas convallis eros a ante dignissim, vitae elementum metus facilisis. Cras in maximus sem. Praesent libero augue, ornare eget quam sed,
+              </p>
+            </div>
+            <div class="newsupdates-list-description d-flex col-lg-12 col-sm-12 col-12 flex-wrap">
+              <div class="newsupdates-btn col-lg-5 col-sm-12 col-12 me-3 mb-3">
+                <button type="button" class=" btn btn-primary btn-lg col-lg-12 col-sm-12 col-12">READ MORE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="newsupdates-list-container d-flex flex-column align-items-center">
+        <div class="newsupdates-list col-lg-10 col-sm-12 col-12 d-flex flex-wrap">
+          <div class="newsupdates-list-img col-lg-7 col-sm-12 col-12">
+            <img src="<?php echo get_stylesheet_directory_uri() . "/images/professional-golfer-bali-indonesia.jpeg" ?>" alt="">
+          </div>
+          <div class="newsupdates-list-description-container col-lg-5 col-sm-12 col-12 d-flex flex-column align-items-start justify-content-center p-5">
             <h5>Lacinia velit sodales</h5>       
             <div class="newsupdates-list-description mb-4">
               <p>
