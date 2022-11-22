@@ -67,28 +67,28 @@ Description: Used for the Blåvandshuk Golf website.
   z-index: 1;
 }
 /* HOMEPAGE - INTRODUCTION */
-.introduction-row .row {
-  padding-top: 80px;
-}
 .introduction-component {
   background-color: #EFEFEF;
 }
-.introduction-container {
+.introduction-component .introduction-row .row {
+  padding-top: 80px;
+}
+.introduction-component .introduction-container {
   width: 75%;
 }
-.introduction-container .introduction-text-container {
+.introduction-component .introduction-container .introduction-text-container {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
-.introduction-container .introduction-text-container h2 {
+.introduction-component .introduction-container .introduction-text-container h2 {
   font: normal normal bold 32px/45px Montserrat;
   letter-spacing: 0px;
   color: #4A4848;
   margin: 0;
 }
-.introduction-container .introduction-text-container p {
+.introduction-component .introduction-container .introduction-text-container p {
   font: normal normal normal 16px/24px Montserrat;
   letter-spacing: 0px;
   color: #4A4848;
@@ -114,11 +114,32 @@ Description: Used for the Blåvandshuk Golf website.
   width: 65%;
 }
 /* HOMEPAGE - OUR GOLF COURSES */
-.golfcourses-row .row {
-  padding-top: 20px;
-}
 .golfcourses-component {
   background-color: #EFEFEF;
+}
+.golfcourses-component .golfcourses-row .row {
+  padding-top: 20px;
+}
+.golfcourses-component .golfcourses-container {
+  width: 75%;
+}
+.golfcourses-component .golfcourses-container .golfcourses-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.golfcourses-component .golfcourses-container .golfcourses-text-container h2 {
+  font: normal normal bold 32px/45px Montserrat;
+  letter-spacing: 0px;
+  color: #4A4848;
+  margin: 0;
+}
+.golfcourses-component .golfcourses-container .golfcourses-text-container p {
+  font: normal normal normal 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #4A4848;
+  margin: 0;
 }
 .golfcourses-component .card-group {
   margin: 40px 0 0 0;
@@ -157,61 +178,88 @@ Description: Used for the Blåvandshuk Golf website.
   color: #4A4848;
   background: #FFFFFF 0% 0% no-repeat padding-box;
 }
-.golfcourses-container {
-  width: 75%;
-}
-.golfcourses-container .golfcourses-text-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-.golfcourses-container .golfcourses-text-container h2 {
-  font: normal normal bold 32px/45px Montserrat;
-  letter-spacing: 0px;
-  color: #4A4848;
-  margin: 0;
-}
-.golfcourses-container .golfcourses-text-container p {
-  font: normal normal normal 16px/24px Montserrat;
-  letter-spacing: 0px;
-  color: #4A4848;
-  margin: 0;
-}
-/* HOMEPAGE - BECOME A MEMBER & BECOME A SPONSOR */
-.become-container {
+/* HOMEPAGE - BECOME A MEMBER; FRIEND AND FAMILY; TOURNAMENTS; BECOME A SPONSOR */
+.homepage-container {
   background-color: #EFEFEF;
 }
-.become-container .row {
+.homepage-container .row {
   padding: 80px 0;
 }
-.become-container .row .member-image {
+.homepage-container .row .member-image {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 450px;
 }
-.become-container .row .become-text-container h2 {
+.homepage-container .row .homepage-text-container h2 {
   text-align: left;
   font: normal normal bold 32px/45px Montserrat;
   letter-spacing: 0px;
   color: #4A4848;
   margin: 0 0 20px 0 !important;
 }
-.become-container .row .become-text-container .become-text-p {
+.homepage-container .row .homepage-text-container .homepage-text-p {
   text-align: left;
   font: normal normal normal 16px/24px Montserrat;
   letter-spacing: 0px;
   color: #4A4848;
   margin: 0 0 20px 0 !important;
 }
-.become-container .row .become-text-container .btn-primary {
+.homepage-container .row .homepage-text-container .btn-primary {
   padding: 10px 0;
   font: normal normal normal 16px/24px Montserrat;
   border-radius: 0;
   border-color: #4A4848;
   color: #4A4848;
   background: #EFEFEF 0% 0% no-repeat padding-box;
+}
+/* HOMEPAGE - TRUSTED BY */
+.trustedby-component {
+  background-color: #B1ACAC;
+}
+.trustedby-component .trustedby-row .row {
+  padding: 40px 0;
+}
+.trustedby-component .trustedby-container {
+  width: 100%;
+}
+.trustedby-component .trustedby-container .trustedby-header h2 {
+  font: normal normal bold 32px/45px Montserrat;
+  letter-spacing: 0px;
+  color: #4A4848;
+  margin: 0;
+}
+.trustedby-component .trustedby-container .trustedby-images-container {
+  margin: 20px 0;
+  width: 100%;
+}
+/* HOMEPAGE - NEWS & UPDATES */
+.newsupdates-component {
+  background-color: #EFEFEF;
+}
+.newsupdates-component .newsupdates-row .row {
+  padding-top: 20px;
+}
+.newsupdates-component .newsupdates-container {
+  width: 75%;
+}
+.newsupdates-component .newsupdates-container .newsupdates-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.newsupdates-component .newsupdates-container .newsupdates-text-container h2 {
+  font: normal normal bold 32px/45px Montserrat;
+  letter-spacing: 0px;
+  color: #4A4848;
+  margin: 0;
+}
+.newsupdates-component .newsupdates-container .newsupdates-text-container p {
+  font: normal normal normal 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #4A4848;
+  margin: 0;
 }
 /* FOOTER */
 .footer {

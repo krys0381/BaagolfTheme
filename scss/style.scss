@@ -87,37 +87,37 @@ z-index: 1;
 
 /* HOMEPAGE - INTRODUCTION */
 
-.introduction-row {
-    .row{
-        padding-top: 80px;
-    }
-}
-
 .introduction-component{
     background-color: $primarybackgroundcolor;
-}
 
-.introduction-container {
-    width: 75%;
-
-    .introduction-text-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-
-        h2 {
-            font: normal normal bold 32px/45px Montserrat;
-            letter-spacing: 0px;
-            color: $darktextcolor;
-            margin: 0;
+    .introduction-row {
+        .row{
+            padding-top: 80px;
         }
+    }
 
-        p {
-            font: normal normal normal 16px/24px Montserrat;
-            letter-spacing: 0px;
-            color: $darktextcolor;
-            margin: 0;
+    .introduction-container {
+        width: 75%;
+    
+        .introduction-text-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+    
+            h2 {
+                font: normal normal bold 32px/45px Montserrat;
+                letter-spacing: 0px;
+                color: $darktextcolor;
+                margin: 0;
+            }
+    
+            p {
+                font: normal normal normal 16px/24px Montserrat;
+                letter-spacing: 0px;
+                color: $darktextcolor;
+                margin: 0;
+            }
         }
     }
 }
@@ -153,14 +153,39 @@ z-index: 1;
 
 /* HOMEPAGE - OUR GOLF COURSES */
 
-.golfcourses-row {
-    .row{
-        padding-top: 20px;
-    }
-}
-
 .golfcourses-component{
     background-color: $primarybackgroundcolor;
+
+    .golfcourses-row {
+        .row{
+            padding-top: 20px;
+        }
+    }
+
+    .golfcourses-container {
+        width: 75%;
+    
+        .golfcourses-text-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+    
+            h2 {
+                font: normal normal bold 32px/45px Montserrat;
+                letter-spacing: 0px;
+                color: $darktextcolor;
+                margin: 0;
+            }
+    
+            p {
+                font: normal normal normal 16px/24px Montserrat;
+                letter-spacing: 0px;
+                color: $darktextcolor;
+                margin: 0;
+            }
+        }
+    }
 
     .card-group {
         margin: 40px 0 0 0;
@@ -209,34 +234,9 @@ z-index: 1;
     }
 }
 
-.golfcourses-container {
-    width: 75%;
+/* HOMEPAGE - BECOME A MEMBER; FRIEND AND FAMILY; TOURNAMENTS; BECOME A SPONSOR */
 
-    .golfcourses-text-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-
-        h2 {
-            font: normal normal bold 32px/45px Montserrat;
-            letter-spacing: 0px;
-            color: $darktextcolor;
-            margin: 0;
-        }
-
-        p {
-            font: normal normal normal 16px/24px Montserrat;
-            letter-spacing: 0px;
-            color: $darktextcolor;
-            margin: 0;
-        }
-    }
-}
-
-/* HOMEPAGE - BECOME A MEMBER & BECOME A SPONSOR */
-
-.become-container {
+.homepage-container {
     background-color: $primarybackgroundcolor;
 
     .row{
@@ -249,7 +249,7 @@ z-index: 1;
             height: 450px;
         }
 
-        .become-text-container {
+        .homepage-text-container {
             
             h2 {
                 text-align: left;
@@ -259,7 +259,7 @@ z-index: 1;
                 margin: 0 0 20px 0!important;
             }
 
-            .become-text-p{
+            .homepage-text-p{
                 text-align: left;
                 font: normal normal normal 16px/24px Montserrat;
                 letter-spacing: 0px;
@@ -274,6 +274,73 @@ z-index: 1;
                 border-color: $darktextcolor;
                 color: $darktextcolor;
                 background: $primarybackgroundcolor 0% 0% no-repeat padding-box;
+            }
+        }
+    }
+}
+
+/* HOMEPAGE - TRUSTED BY */
+
+.trustedby-component{
+    background-color: $secondarybackgroundcolor;
+
+    .trustedby-row {
+        .row{
+            padding: 40px 0;
+        }
+    }
+
+    .trustedby-container {
+        width: 100%;
+    
+        .trustedby-header {
+            h2 {
+                font: normal normal bold 32px/45px Montserrat;
+                letter-spacing: 0px;
+                color: $darktextcolor;
+                margin: 0;
+            }
+        }
+
+        .trustedby-images-container{
+            margin: 20px 0;
+            width: 100%;
+        }
+    }
+}
+
+/* HOMEPAGE - NEWS & UPDATES */
+
+.newsupdates-component{
+    background-color: $primarybackgroundcolor;
+
+    .newsupdates-row {
+        .row{
+            padding-top: 20px;
+        }
+    }
+
+    .newsupdates-container {
+        width: 75%;
+    
+        .newsupdates-text-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+    
+            h2 {
+                font: normal normal bold 32px/45px Montserrat;
+                letter-spacing: 0px;
+                color: $darktextcolor;
+                margin: 0;
+            }
+    
+            p {
+                font: normal normal normal 16px/24px Montserrat;
+                letter-spacing: 0px;
+                color: $darktextcolor;
+                margin: 0;
             }
         }
     }
