@@ -15,8 +15,8 @@
   </div>
   <div class="bg-image-container d-none d-xl-flex align-item-center justify-self-center">
     <!-- <img src="<?php echo get_stylesheet_directory_uri() . "/images/side-view-man-playing-golf.jpeg" ?>" alt=""> -->
-    <video width="x" height="650px" autoplay muted loop>
-      <source src="<?php echo get_stylesheet_directory_uri() . "/Animated statistics_1.mp4" ?>" type="video/mp4">
+    <video height="900px" autoplay muted loop>
+      <source src="<?php echo get_stylesheet_directory_uri() . "/videos/Blaavandshuk Golf.mp4" ?>" type="video/mp4">
       Your browser does not support the video tag.
     </video>    
   </div>
@@ -83,6 +83,25 @@
     </div>
   </div>
 
+</div>
+
+<!-- SPECIAL OFFER -->
+
+<div class="offer-component container-fluid d-flex align-items-center justify-content-center overflow-hidden">  
+  <div class="container content-container d-flex align-items-center justify-content-center">
+    <div class="row d-flex flex-column align-items-end justify-content-start">
+      <div class="offer-content-container col-lg-8 col-sm-12 col-12 d-flex flex-column flex-wrap align-items-center justify-content-center">
+        <h2>Special Offer</h2>
+        <p>
+          Sign up now and pay only the quota for 1 year to play for the remainder of the year + next year in our 18-hole course for only DKK 5,340.
+        </p>
+        <button type="button" class="btn btn-primary btn-lg 2 col-lg-2 col-md-12 col-sm-12 col-12">SIGN UP NOW</button>
+      </div>
+    </div>
+  </div>
+  <div class="bg-image-container d-none d-xl-flex align-item-center justify-self-center">
+    <img src="<?php echo get_stylesheet_directory_uri() . "/images/two-male-golfers-sitting-cart.jpeg" ?>" alt="">
+  </div>
 </div>
 
 <!-- HOMEPAGE - OUR GOLF COURSES -->

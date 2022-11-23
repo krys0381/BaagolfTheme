@@ -9,7 +9,7 @@ Description: Used for the Blåvandshuk Golf website.
   padding: 0 !important;
 }
 .header {
-  background-color: transparent;
+  background-color: #F4F4F5;
 }
 .image-container {
   background-size: contain;
@@ -17,6 +17,10 @@ Description: Used for the Blåvandshuk Golf website.
   background-repeat: no-repeat;
   height: 100px;
   width: 100%;
+  padding: 10px;
+}
+.image-container img {
+  width: 50%;
 }
 .navigation {
   display: flex;
@@ -24,11 +28,11 @@ Description: Used for the Blåvandshuk Golf website.
   /* a {
         font: normal normal normal 16px/24px Montserrat;
         letter-spacing: 0px;
-        color: $whitetextcolor;
+        color: $tertiarybackgroundcolor;
         margin: 0 15px;
 
         &:hover {
-            color: $accentlightcolor;
+            color: $secondarybackgroundcolor;
         }
     } */
 }
@@ -46,7 +50,7 @@ Description: Used for the Blåvandshuk Golf website.
 .hero-component {
   position: relative;
   min-height: 650px;
-  background-color: #EFEFEF;
+  background-color: #F4F4F5;
 }
 .bg-image-container {
   width: 100%;
@@ -86,7 +90,7 @@ Description: Used for the Blåvandshuk Golf website.
 }
 /* HOMEPAGE - INTRODUCTION */
 .introduction-component {
-  background-color: #EFEFEF;
+  background-color: #F4F4F5;
 }
 .introduction-component .introduction-row .row {
   padding-top: 80px;
@@ -131,12 +135,56 @@ Description: Used for the Blåvandshuk Golf website.
   text-align: center;
   width: 65%;
 }
+/* SPECIAL OFFER */
+.offer-component {
+  position: relative;
+  min-height: 500px;
+}
+.offer-component .offer-content-container {
+  z-index: 1;
+  width: 40%;
+  padding: 60px 10px;
+  background: #D6EEFD 0% 0% no-repeat padding-box;
+}
+.offer-component .offer-content-container h2 {
+  font: normal normal bold 32px/45px Montserrat;
+  letter-spacing: 0px;
+  color: #0C365E;
+}
+.offer-component .offer-content-container p {
+  width: 60%;
+  text-align: center;
+  font: normal normal normal 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #09131D;
+}
+.offer-component .offer-content-container .btn-primary {
+  padding: 10px 0;
+  width: 50%;
+  font: normal normal normal 20px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #D6EEFD;
+  border-radius: 0;
+  border-color: #0C365E;
+  background: #0C365E 0% 0% no-repeat padding-box;
+}
+.bg-image-container {
+  width: 100%;
+  position: absolute;
+  transform-origin: top right;
+  transform: scale(1.2);
+}
+.bg-image-container img {
+  width: 100%;
+  opacity: 90%;
+  filter: brightness(75%);
+}
 /* HOMEPAGE - OUR GOLF COURSES */
 .golfcourses-component {
-  background-color: #EFEFEF;
+  background-color: #F4F4F5;
 }
 .golfcourses-component .golfcourses-row .row {
-  padding-top: 20px;
+  padding-top: 48px;
 }
 .golfcourses-component .golfcourses-container {
   width: 75%;
@@ -199,7 +247,7 @@ Description: Used for the Blåvandshuk Golf website.
 }
 /* HOMEPAGE - BECOME A MEMBER; FRIEND AND FAMILY; TOURNAMENTS; BECOME A SPONSOR */
 .homepage-container {
-  background-color: #EFEFEF;
+  background-color: #F4F4F5;
 }
 .homepage-container .row {
   padding: 80px 0;
@@ -232,7 +280,7 @@ Description: Used for the Blåvandshuk Golf website.
   border-radius: 0;
   border-color: #0C365E;
   color: #0C365E;
-  background: #EFEFEF 0% 0% no-repeat padding-box;
+  background: #F4F4F5 0% 0% no-repeat padding-box;
 }
 /* HOMEPAGE - TRUSTED BY */
 .trustedby-component {
@@ -256,7 +304,7 @@ Description: Used for the Blåvandshuk Golf website.
 }
 /* HOMEPAGE - NEWS & UPDATES */
 .newsupdates-component {
-  background-color: #EFEFEF;
+  background-color: #F4F4F5;
   padding: 40px 0;
 }
 .newsupdates-component .newsupdates-container {
