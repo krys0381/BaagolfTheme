@@ -7,8 +7,9 @@
     <div class="row d-flex flex-column align-items-center justify-content-start">
       <div class="hero-content-container col-lg-10 col-sm-12 col-12 d-flex flex-column flex-wrap align-items-center justify-content-center">
         <h1>Rhoncus tincidunt</h1>
-        <h3 class="col-lg-8 my-3">
-          Duis porta, ligula rhoncus euismod pretium, nisi tellus eleifend odio, luctus viverra sem dolor id</h3>
+        <p class="col-lg-8 my-3">
+          Duis porta, ligula rhoncus euismod pretium, nisi tellus eleifend odio, luctus viverra sem dolor id
+        </p>
         <button type="button" class="btn btn-primary btn-lg 2 col-lg-2 col-md-12 col-sm-12 col-12">BOOK NOW</button>
       </div>
     </div>
@@ -54,25 +55,25 @@
 
               <div class="ourservices-services d-flex align-items-center flex-column col-lg-6 col-sm-12 col-12 pb-5 px-2">
                 <img src="<?php echo get_stylesheet_directory_uri() . "/images/golf_clubs.png" ?>" width="72" height="72" alt="">
-                <h5>Golf</h5>
+                <h4>Golf</h4>
                 <p>igula, vel dictum orci. Nam feugiat interdum nisl. Ut id velit ac ante maximus gravida. Vivamus lobortis vestibulum mauris a mollis. Nunc mollis tempus l</p> 
               </div>
 
               <div class="ourservices-services  d-flex align-items-center flex-column col-lg-6 col-sm-12 col-12 pb-5 px-2">
                 <img src="<?php echo get_stylesheet_directory_uri() . "/images/football-player.png" ?>" width="72" height="72" alt="">
-                <h5>Football Golf</h5>
+                <h4>Football Golf</h4>
                 <p>igula, vel dictum orci. Nam feugiat interdum nisl. Ut id velit ac ante maximus gravida. Vivamus lobortis vestibulum mauris a mollis. Nunc mollis tempus l</p>
               </div>
 
               <div class="ourservices-services  d-flex align-items-center flex-column col-lg-6 col-sm-12 col-12 pb-5 px-2">
                 <img src="<?php echo get_stylesheet_directory_uri() . "/images/hotel-bed.png" ?>" width="72" height="72" alt="">
-                <h5>Accommodation</h5>
+                <h4>Accommodation</h4>
                 <p>igula, vel dictum orci. Nam feugiat interdum nisl. Ut id velit ac ante maximus gravida. Vivamus lobortis vestibulum mauris a mollis. Nunc mollis tempus l</p>
               </div>
 
               <div class="ourservices-services  d-flex align-items-center flex-column col-lg-6 col-sm-12 col-12 pb-5 px-2">
                 <img src="<?php echo get_stylesheet_directory_uri() . "/images/restaurant.png" ?>" width="72" height="72" alt="">
-                <h5>Restaurant</h5>
+                <h4>Restaurant</h4>
                 <p>igula, vel dictum orci. Nam feugiat interdum nisl. Ut id velit ac ante maximus gravida. Vivamus lobortis vestibulum mauris a mollis. Nunc mollis tempus l</p>
               </div>
 
@@ -131,7 +132,7 @@
         <img src="<?php echo get_stylesheet_directory_uri() . "/images/professional-golfer-bali-indonesia.jpeg" ?>" class="card-img-top" alt="...">
         <div class="card-body">
 
-          <h5 class="card-title">18-Hole Course</h5>
+          <h3 class="card-title">18-Hole Course</h3>
           <div class="card-text-container d-flex">
             <img src="<?php echo get_stylesheet_directory_uri() . "/images/par.png" ?>" width="26" height="26" alt="">
             <p class="card-text">72 Par</p>
@@ -158,7 +159,7 @@
         <img src="<?php echo get_stylesheet_directory_uri() . "/images/pexels-picas-joe-11363153.jpeg" ?>" class="card-img-top" alt="...">
         <div class="card-body">
           
-          <h5 class="card-title">Pay & Play Par 4 course</h5>
+          <h3 class="card-title">Pay & Play Par 4 course</h3>
           <div class="card-text-container d-flex">
             <img src="<?php echo get_stylesheet_directory_uri() . "/images/par.png" ?>" width="26" height="26" alt="">
             <p class="card-text">4 Par</p>
@@ -185,7 +186,7 @@
         <img src="<?php echo get_stylesheet_directory_uri() . "/images/pexels-mikhail-nilov-9207308.jpeg" ?>" class="card-img-top" alt="...">
         <div class="card-body">
 
-          <h5 class="card-title">Pay & Play Par 3 course</h5>
+          <h3 class="card-title">Pay & Play Par 3 course</h3>
           <div class="card-text-container d-flex">
             <img src="<?php echo get_stylesheet_directory_uri() . "/images/par.png" ?>" width="26" height="26" alt="">
             <p class="card-text">3 Par</p>
@@ -375,7 +376,7 @@
             <img src="<?php echo get_stylesheet_directory_uri() . "/images/professional-golfer-bali-indonesia.jpeg" ?>" alt="">
           </div>
           <div class="newsupdates-list-description-container col-lg-5 col-sm-12 col-12 d-flex flex-column align-items-start justify-content-center p-5">
-            <h5>Lacinia velit sodales</h5>       
+            <h3>Lacinia velit sodales</h3>       
             <div class="newsupdates-list-description mb-4">
               <p>
                 Phasellus dignissim, tellus in pellentesque mollis, mauris orci dignissim nisl, id gravida nunc enim quis nibh. Maecenas convallis eros a ante dignissim, vitae elementum metus facilisis. Cras in maximus sem. Praesent libero augue, ornare eget quam sed,
@@ -396,7 +397,7 @@
             <img src="<?php echo get_stylesheet_directory_uri() . "/images/professional-golfer-bali-indonesia.jpeg" ?>" alt="">
           </div>
           <div class="newsupdates-list-description-container col-lg-5 col-sm-12 col-12 d-flex flex-column align-items-start justify-content-center p-5">
-            <h5>Lacinia velit sodales</h5>       
+            <h3>Lacinia velit sodales</h3>       
             <div class="newsupdates-list-description mb-4">
               <p>
                 Phasellus dignissim, tellus in pellentesque mollis, mauris orci dignissim nisl, id gravida nunc enim quis nibh. Maecenas convallis eros a ante dignissim, vitae elementum metus facilisis. Cras in maximus sem. Praesent libero augue, ornare eget quam sed,
@@ -417,7 +418,7 @@
             <img src="<?php echo get_stylesheet_directory_uri() . "/images/professional-golfer-bali-indonesia.jpeg" ?>" alt="">
           </div>
           <div class="newsupdates-list-description-container col-lg-5 col-sm-12 col-12 d-flex flex-column align-items-start justify-content-center p-5">
-            <h5>Lacinia velit sodales</h5>       
+            <h3>Lacinia velit sodales</h3>       
             <div class="newsupdates-list-description mb-4">
               <p>
                 Phasellus dignissim, tellus in pellentesque mollis, mauris orci dignissim nisl, id gravida nunc enim quis nibh. Maecenas convallis eros a ante dignissim, vitae elementum metus facilisis. Cras in maximus sem. Praesent libero augue, ornare eget quam sed,
