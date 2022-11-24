@@ -4,6 +4,37 @@ Theme Name: Blaagolf Theme
 Author: EASV Students
 Description: Used for the Blåvandshuk Golf website.
 */
+/* HOMEPAGE - HERO */
+.green-hero-component {
+  position: relative;
+  min-height: 500px;
+  background-color: #F4F4F5;
+}
+.green-hero-component .green-hero-content-container {
+  z-index: 1;
+  padding-bottom: 50px;
+}
+.green-hero-component .green-hero-content-container h1 {
+  text-align: center;
+  font: normal normal 600 60px/104px Montserrat;
+  letter-spacing: 0px;
+  color: #F4F4F5;
+}
+.green-hero-component .green-hero-content-container p {
+  text-align: center;
+  font: normal normal normal 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #F4F4F5;
+  width: 55%;
+}
+.green-hero-component .bg-image-container {
+  width: 100%;
+  position: absolute;
+}
+.green-hero-component .bg-image-container img {
+  width: 100%;
+  filter: brightness(60%);
+}
 /* HEADER */
 .header-row {
   padding: 0 !important;
@@ -44,42 +75,29 @@ Description: Used for the Blåvandshuk Golf website.
   padding: 0;
 }
 /* HOMEPAGE - HERO */
-.hero-content-container {
-  z-index: 1;
-}
 .hero-component {
   position: relative;
   min-height: 650px;
   background-color: #F4F4F5;
 }
-.bg-image-container {
-  width: 100%;
-  position: absolute;
-  /* img {
-        width: 100%;
-        filter: brightness(60%);
-    } */
-}
-.bg-image-container video {
-  width: 100%;
-  filter: brightness(60%);
-}
-.hero-content-container {
+.hero-component .hero-content-container {
+  z-index: 1;
   padding-bottom: 50px;
 }
-.hero-content-container h1 {
-  font: normal normal normal 96px/125px Sun Valley - Demo;
+.hero-component .hero-content-container h1 {
+  text-align: center;
+  font: normal normal 600 60px/104px Montserrat;
   letter-spacing: 0px;
   color: #F4F4F5;
 }
-.hero-content-container p {
+.hero-component .hero-content-container p {
   text-align: center;
-  font: normal normal normal 40px/56px Montserrat;
+  font: normal normal normal 29px/45px Montserrat;
   letter-spacing: 0px;
   color: #F4F4F5;
   width: 100%;
 }
-.hero-content-container .btn-primary {
+.hero-component .hero-content-container .btn-primary {
   padding: 10px 0;
   font: normal normal normal 20px/24px Montserrat;
   letter-spacing: 0px;
@@ -87,6 +105,14 @@ Description: Used for the Blåvandshuk Golf website.
   border-radius: 0;
   border-color: #0C365E;
   background: #0C365E 0% 0% no-repeat padding-box;
+}
+.hero-component .bg-image-container {
+  width: 100%;
+  position: absolute;
+}
+.hero-component .bg-image-container video {
+  width: 100%;
+  filter: brightness(60%);
 }
 /* HOMEPAGE - INTRODUCTION */
 .introduction-component {
@@ -302,6 +328,41 @@ Description: Used for the Blåvandshuk Golf website.
   margin: 20px 0;
   width: 100%;
 }
+/* HOMEPAGE - TESTIMONIALS */
+/* .testimonials-component{
+    background-color: $primarybackgroundcolor;
+
+    .testimonials-row {
+        .row{
+            padding-top: 80px;
+        }
+    }
+
+    .testimonials-container {
+        width: 75%;
+    
+        .testimonials-text-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+    
+            h2 {
+                font: normal normal bold 32px/45px Montserrat;
+                letter-spacing: 0px;
+                color: $tertiarybackgroundcolor;
+                margin: 0;
+            }
+    
+            p {
+                font: normal normal normal 16px/24px Montserrat;
+                letter-spacing: 0px;
+                color: $darktextcolor;
+                margin: 0;
+            }
+        }
+    }
+} */
 /* HOMEPAGE - NEWS & UPDATES */
 .newsupdates-component {
   background-color: #F4F4F5;
@@ -366,30 +427,55 @@ Description: Used for the Blåvandshuk Golf website.
   background: #D6EEFD 0% 0% no-repeat padding-box;
 }
 /* NEWSLETTER */
-.newsletter-content-container {
-  z-index: 1;
-}
 .newsletter-component {
   position: relative;
   min-height: 500px;
 }
+.newsletter-component .newsletter-content-container {
+  z-index: 1;
+}
+.newsletter-component .newsletter-content-container h2 {
+  width: 85%;
+  text-align: center;
+  font: normal normal bold 32px/45px Montserrat;
+  letter-spacing: 0px;
+  color: #F4F4F5;
+}
+.newsletter-component .newsletter-content-container p {
+  width: 100%;
+  margin: 0 0 20px 0;
+  text-align: center;
+  font: normal normal normal 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #F4F4F5;
+}
+.newsletter-component .newsletter-content-container .newsletter-form-container .form-control {
+  border-radius: 0;
+  height: 55px;
+  background-color: #F4F4F5;
+  font: normal normal normal 16px/24px Montserrat;
+  letter-spacing: 0px;
+}
+.newsletter-component .newsletter-content-container .newsletter-form-container .btn-primary {
+  padding: 10px 50px;
+  height: 55px;
+  font: normal normal normal 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #F4F4F5;
+  border-radius: 0;
+  border-color: #0C365E;
+  background: #0C365E 0% 0% no-repeat padding-box;
+}
 .bg-image-container {
   width: 100%;
   position: absolute;
+  transform-origin: top center;
+  transform: scale(1);
 }
 .bg-image-container img {
   width: 100%;
   opacity: 90%;
   filter: brightness(75%);
-}
-.bg-image-container .btn-primary {
-  padding: 10px 0;
-  font: normal normal normal 20px/24px Montserrat;
-  letter-spacing: 0px;
-  color: #FFFFFF;
-  border-radius: 0;
-  border-color: #0C365E;
-  background: #0C365E 0% 0% no-repeat padding-box;
 }
 /* FOOTER */
 .footer {
@@ -424,13 +510,21 @@ Description: Used for the Blåvandshuk Golf website.
   color: #09131D;
   margin-bottom: 4px;
 }
-.rights-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin-top: 20px;
+.footer-row .footer-text-container .contact-details-container {
+  margin-bottom: 10px;
 }
-.rights-container p {
-  opacity: 0.6;
+.footer-row .footer-text-container .contact-details-container img {
+  margin-right: 10px;
+}
+.footer-row .footer-text-container .contact-details-container p {
+  width: 100%;
+}
+.footer-row .footer-end-container {
+  border-top: 1px solid #09131D;
+}
+.footer-row .footer-end-container p {
+  text-align: left;
+  font: normal normal normal 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #09131D;
 }

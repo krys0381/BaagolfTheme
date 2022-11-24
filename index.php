@@ -6,16 +6,15 @@
   <div class="container content-container d-flex align-items-center justify-content-center">
     <div class="row d-flex flex-column align-items-center justify-content-start">
       <div class="hero-content-container col-lg-10 col-sm-12 col-12 d-flex flex-column flex-wrap align-items-center justify-content-center">
-        <h1>Rhoncus tincidunt</h1>
+        <h1>Exciting activities await you in the most hygge golf club in Blåvand</h1>
         <p class="col-lg-8 my-3">
-          Duis porta, ligula rhoncus euismod pretium, nisi tellus eleifend odio, luctus viverra sem dolor id
+          We are more than just a golf center, we are also a popular outdoor activity destination. We offer affordable outdoor activities for families, friends, companies, and golf enthusiasts.
         </p>
         <button type="button" class="btn btn-primary btn-lg 2 col-lg-2 col-md-12 col-sm-12 col-12">BOOK NOW</button>
       </div>
     </div>
   </div>
   <div class="bg-image-container d-none d-xl-flex align-item-center justify-self-center">
-    <!-- <img src="<?php echo get_stylesheet_directory_uri() . "/images/side-view-man-playing-golf.jpeg" ?>" alt=""> -->
     <video height="900px" autoplay muted loop>
       <source src="<?php echo get_stylesheet_directory_uri() . "/videos/Blaavandshuk Golf.mp4" ?>" type="video/mp4">
       Your browser does not support the video tag.
@@ -34,7 +33,7 @@
           <div class="introduction-text-container">
             <h2>Welcome to Blåvandshuk Golf Club</h2>
           </div>
-          <div class="introduction-text-container d-flex flex-column align-items-start">
+          <div class="introduction-text-container d-flex flex-column align-items-center">
             <p>
               Proin ex ipsum, facilisis id tincidunt sed, vulputate in lacus. Donec pharetra faucibus leo, vitae vestibulum leo scelerisque eu. Nam enim dolor, porta at ex ut, eleifend tristique metus. Integer sit amet auctor ligula, vel dictum orci. Nam feugiat interdum nisl. Ut id velit ac ante maximus gravida. Vivamus lobortis vestibulum mauris a mollis. Nunc mollis tempus lorem eu pulvinar. Quisque mollis blandit aliquam. Nulla finibus gravida dignissim. Sed viverra mattis dictum. In ultricies tellus in auctor
             </p>
@@ -347,6 +346,28 @@
   </div>
 </div>
 
+<!-- HOMEPAGE - TESTIMONIALS -->
+
+<!-- <div class="testimonials-component container-fluid">
+  
+  <div class="testimonials-row g-0 container">
+    <div class="row d-flex justify-content-between align-items-start">
+      <div class="col-lg-12 col-sm-12 col-12 d-flex flex-column align-items-center">
+        <div class="testimonials-container d-flex flex-column justify-content-between">
+          <div class="testimonials-text-container">
+            <h2>Testimonials</h2>
+          </div>
+          <div class="testimonials-text-container d-flex flex-column align-items-center">
+            <p>
+              What our guests and club members say about us.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
 <!-- HOMEPAGE - NEWS & UPDATES -->
 
 <div class="newsupdates-component container-fluid">
@@ -442,13 +463,23 @@
 <div class="newsletter-component container-fluid d-flex align-items-center justify-content-center overflow-hidden">  
   <div class="container content-container d-flex align-items-center justify-content-center">
     <div class="row d-flex flex-column align-items-center justify-content-start">
-      <div class="newsletter-content-container col-lg-6 col-sm-12 col-12 d-flex flex-column flex-wrap align-items-center justify-content-center">
-        <h1>Interested in collaboration?</h1>
-        <button type="button" class="btn btn-primary btn-lg col-lg-12 col-sm-12 col-12 mt-3">LET'S TALK</button>   
+      <div class="newsletter-content-container col-lg-10 col-sm-12 col-12 d-flex flex-column flex-wrap align-items-center justify-content-center">
+        <h2>Don't Miss Out on Our Latest News and Offers</h2>
+        <p class="col-lg-8">
+          Enter your email address to subscribe to our mailing list.
+        </p>
+        <div class="newsletter-form-container col-lg-12 col-sm-12 col-12 d-flex">
+          <form action="" class="form col-lg-8 col-sm-12 col-12 align-items-end" ref="form">
+            <div class="mb-3 d-flex flex-column align-items-start">
+              <input type="text" class="form-control" id="emailInput" placeholder="Your email address" required>
+            </div>
+          </form>
+          <button type="submit" class="btn btn-primary">SUBSCRIBE</button>
+        </div>
       </div>
     </div>
   </div>
-  <div class="bg-image-container d-none d-xl-flex align-item-center justify-self-center">
+  <div class="bg-image-container d-xl-flex align-item-center justify-self-center">
     <img src="<?php echo get_stylesheet_directory_uri() . "/images/pexels-nadim-shaikh-7758348.jpeg" ?>" alt="">
   </div>
 </div>
