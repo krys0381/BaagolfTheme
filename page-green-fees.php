@@ -55,6 +55,9 @@
               <li class="list-group-item">Ticket Description:</li>
               <li class="list-group-item">Above 15 yrs old</li>
               <li class="list-group-item">9-hole par 3 course</li>
+              <li class="list-group-item">
+                <a href="http://blvandshuk-golf.local/checkout/?line_items%5B0%5D%5Bprice_id%5D=4b22ab94-5c4b-499d-bcc8-5b3c82551bfd&line_items%5B0%5D%5Bquantity%5D=1"><button type="button" class=" btn btn-primary btn-lg col-lg-12 col-sm-12 col-12">BOOK NOW</button></a>
+              </li>
             </ul>
           </div>
         </div>

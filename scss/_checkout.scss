@@ -1,0 +1,15 @@
+@import "variables";
+
+.checkout-component{
+    background-color: $primarybackgroundcolor;
+
+    .checkout-row {
+        .row{
+            padding: 80px 0;
+        }
+    }
+
+    .checkout-container {
+        width: 75%;
+    }
+}

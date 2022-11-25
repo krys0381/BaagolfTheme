@@ -109,6 +109,15 @@ Description: Used for the Blåvandshuk Golf website.
   color: #0C365E;
   background: #D6EEFD 0% 0% no-repeat padding-box;
 }
+.payandplay9par3-component .cards-row .list-group-item .btn-primary {
+  padding: 8px 0;
+  width: 65%;
+  font: normal normal normal 16px/24px Montserrat;
+  border-radius: 0;
+  border-color: #0C365E;
+  color: #0C365E;
+  background: #D6EEFD 0% 0% no-repeat padding-box;
+}
 /* GREEN FEES - PAY AND PLAY 9-HOLE PAR 4 COURSE */
 .payandplay9par4-component {
   background-color: #F4F4F5;
@@ -258,6 +267,15 @@ Description: Used for the Blåvandshuk Golf website.
   letter-spacing: 0px;
   color: #0C365E;
   background: #D6EEFD 0% 0% no-repeat padding-box;
+}
+.checkout-component {
+  background-color: #F4F4F5;
+}
+.checkout-component .checkout-row .row {
+  padding: 80px 0;
+}
+.checkout-component .checkout-container {
+  width: 75%;
 }
 /* HEADER */
 .header-row {
