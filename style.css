@@ -109,6 +109,156 @@ Description: Used for the Blåvandshuk Golf website.
   color: #0C365E;
   background: #D6EEFD 0% 0% no-repeat padding-box;
 }
+/* GREEN FEES - PAY AND PLAY 9-HOLE PAR 4 COURSE */
+.payandplay9par4-component {
+  background-color: #F4F4F5;
+}
+.payandplay9par4-component .payandplay9par4-row .row {
+  padding-top: 80px;
+}
+.payandplay9par4-component .payandplay9par4-container {
+  width: 75%;
+}
+.payandplay9par4-component .payandplay9par4-container .payandplay9par4-header-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.payandplay9par4-component .payandplay9par4-container .payandplay9par4-header-text-container h2 {
+  font: normal normal bold 32px/45px Montserrat;
+  letter-spacing: 0px;
+  color: #0C365E;
+  margin: 0;
+}
+.payandplay9par4-component .payandplay9par4-container .payandplay9par4-header-text-container p {
+  font: normal normal bold 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #868E96;
+  margin: 0;
+}
+.payandplay9par4-component .payandplay9par4-container .payandplay9par4-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.payandplay9par4-component .payandplay9par4-container .payandplay9par4-text-container p {
+  font: normal normal normal 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #09131D;
+  margin: 20px 0;
+  width: 80%;
+}
+.payandplay9par4-component .cards-row .card {
+  background: #D6EEFD 0% 0% no-repeat padding-box;
+  border: 1px solid #0C365E;
+  border-radius: 0;
+}
+.payandplay9par4-component .cards-row .card-title {
+  text-align: center;
+  font: normal normal normal 24px/45px Montserrat;
+  letter-spacing: 0px;
+  color: #0C365E;
+  margin: 0;
+  padding: 15px 0;
+}
+.payandplay9par4-component .cards-row p {
+  text-align: center;
+  font: normal normal bold 16px/45px Montserrat;
+  letter-spacing: 0px;
+  line-height: 25px;
+  color: #0C365E;
+}
+.payandplay9par4-component .cards-row .list-group {
+  border-top: none;
+}
+.payandplay9par4-component .cards-row .list-group :first-child {
+  font: normal normal 500 16px/24px Montserrat;
+}
+.payandplay9par4-component .cards-row .list-group-item {
+  text-align: center;
+  font: normal normal normal 15px/23px Montserrat;
+  letter-spacing: 0px;
+  color: #0C365E;
+  background: #D6EEFD 0% 0% no-repeat padding-box;
+}
+/* GREEN FEES - 18-HOLE COURSE */
+.hole18-component {
+  background-color: #F4F4F5;
+}
+.hole18-component .hole18-row .row {
+  padding-top: 80px;
+}
+.hole18-component .hole18-container {
+  width: 75%;
+}
+.hole18-component .hole18-container .hole18-header-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.hole18-component .hole18-container .hole18-header-text-container h2 {
+  font: normal normal bold 32px/45px Montserrat;
+  letter-spacing: 0px;
+  color: #0C365E;
+  margin: 0;
+}
+.hole18-component .hole18-container .hole18-header-text-container p {
+  font: normal normal bold 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #868E96;
+  margin: 0;
+}
+.hole18-component .hole18-container .hole18-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.hole18-component .hole18-container .hole18-text-container p {
+  font: normal normal normal 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #09131D;
+  margin: 20px 0;
+  width: 85%;
+}
+.hole18-component .cards-row .card {
+  background: #D6EEFD 0% 0% no-repeat padding-box;
+  border: 1px solid #0C365E;
+  border-radius: 0;
+}
+.hole18-component .cards-row .card-title {
+  text-align: center;
+  font: normal normal normal 24px/45px Montserrat;
+  letter-spacing: 0px;
+  color: #0C365E;
+  margin: 0;
+  padding: 15px 0;
+}
+.hole18-component .cards-row p {
+  text-align: center;
+  font: normal normal bold 16px/45px Montserrat;
+  letter-spacing: 0px;
+  line-height: 25px;
+  color: #0C365E;
+}
+.hole18-component .cards-row .list-group {
+  border-top: none;
+}
+.hole18-component .cards-row .list-group :first-child {
+  font: normal normal 500 16px/24px Montserrat;
+}
+.hole18-component .cards-row .list-group-item {
+  text-align: center;
+  font: normal normal normal 15px/23px Montserrat;
+  letter-spacing: 0px;
+  color: #0C365E;
+  background: #D6EEFD 0% 0% no-repeat padding-box;
+}
 /* HEADER */
 .header-row {
   padding: 0 !important;

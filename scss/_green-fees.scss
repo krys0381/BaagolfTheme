@@ -129,3 +129,193 @@
         }
     }
 }
+
+/* GREEN FEES - PAY AND PLAY 9-HOLE PAR 4 COURSE */
+
+.payandplay9par4-component{
+    background-color: $primarybackgroundcolor;
+
+    .payandplay9par4-row {
+        .row{
+            padding-top: 80px;
+        }
+    }
+
+    .payandplay9par4-container {
+        width: 75%;
+    
+        .payandplay9par4-header-text-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+
+            h2 {
+                font: normal normal bold 32px/45px Montserrat;
+                letter-spacing: 0px;
+                color: $tertiarybackgroundcolor;
+                margin: 0;
+            }
+    
+            p {
+                font: normal normal bold 16px/24px Montserrat;
+                letter-spacing: 0px;
+                color: $greytextcolor;
+                margin: 0;
+            }
+        }
+        
+        .payandplay9par4-text-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 40px;
+    
+            p {
+                font: normal normal normal 16px/24px Montserrat;
+                letter-spacing: 0px;
+                color: $darktextcolor;
+                margin: 20px 0;
+                width: 80%;
+            }
+        }
+    }
+
+    .cards-row {
+        
+        .card {
+            background: $secondarybackgroundcolor 0% 0% no-repeat padding-box;
+            border: 1px solid $tertiarybackgroundcolor;
+            border-radius: 0;
+        }
+        
+        .card-title {
+            text-align: center;
+            font: normal normal normal 24px/45px Montserrat;
+            letter-spacing: 0px;
+            color: $tertiarybackgroundcolor;
+            margin: 0;
+            padding: 15px 0;
+        }
+
+        p {
+            text-align: center;
+            font: normal normal bold 16px/45px Montserrat;
+            letter-spacing: 0px;
+            line-height: 25px;
+            color: $tertiarybackgroundcolor;
+        }
+
+        .list-group {
+            border-top: none;
+
+            :first-child {
+                font: normal normal 500 16px/24px Montserrat;
+            }
+        }
+
+        .list-group-item {
+            text-align: center;
+            font: normal normal normal 15px/23px Montserrat;
+            letter-spacing: 0px;
+            color: $tertiarybackgroundcolor;
+            background: $secondarybackgroundcolor 0% 0% no-repeat padding-box;
+        }
+    }
+}
+
+/* GREEN FEES - 18-HOLE COURSE */
+
+.hole18-component{
+    background-color: $primarybackgroundcolor;
+
+    .hole18-row {
+        .row{
+            padding-top: 80px;
+        }
+    }
+
+    .hole18-container {
+        width: 75%;
+    
+        .hole18-header-text-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+
+            h2 {
+                font: normal normal bold 32px/45px Montserrat;
+                letter-spacing: 0px;
+                color: $tertiarybackgroundcolor;
+                margin: 0;
+            }
+    
+            p {
+                font: normal normal bold 16px/24px Montserrat;
+                letter-spacing: 0px;
+                color: $greytextcolor;
+                margin: 0;
+            }
+        }
+        
+        .hole18-text-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 40px;
+    
+            p {
+                font: normal normal normal 16px/24px Montserrat;
+                letter-spacing: 0px;
+                color: $darktextcolor;
+                margin: 20px 0;
+                width: 85%;
+            }
+        }
+    }
+
+    .cards-row {
+        
+        .card {
+            background: $secondarybackgroundcolor 0% 0% no-repeat padding-box;
+            border: 1px solid $tertiarybackgroundcolor;
+            border-radius: 0;
+        }
+        
+        .card-title {
+            text-align: center;
+            font: normal normal normal 24px/45px Montserrat;
+            letter-spacing: 0px;
+            color: $tertiarybackgroundcolor;
+            margin: 0;
+            padding: 15px 0;
+        }
+
+        p {
+            text-align: center;
+            font: normal normal bold 16px/45px Montserrat;
+            letter-spacing: 0px;
+            line-height: 25px;
+            color: $tertiarybackgroundcolor;
+        }
+
+        .list-group {
+            border-top: none;
+
+            :first-child {
+                font: normal normal 500 16px/24px Montserrat;
+            }
+        }
+
+        .list-group-item {
+            text-align: center;
+            font: normal normal normal 15px/23px Montserrat;
+            letter-spacing: 0px;
+            color: $tertiarybackgroundcolor;
+            background: $secondarybackgroundcolor 0% 0% no-repeat padding-box;
+        }
+    }
+}
