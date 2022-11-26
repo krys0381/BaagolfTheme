@@ -214,30 +214,33 @@
       <div class="col-lg-12 col-sm-12 col-12 d-flex flex-column align-items-center" style="border-bottom: 1px solid #09131D; padding-bottom: 80px;">
 
         <div class="row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-center" style="width: 80%;">
+          <?php $loop = new WP_Query(array("post_type" => "ticket")); ?>
+          <?php while ($loop->have_posts()): $loop->the_post() ?>
           <div class="col-lg-3 col-sm-12 col-12">
             <div class="card">
               <h3 class="card-title">
-                350 DKK
+                <?php the_field("ticket_price") ?> DKK
                 <p>
-                  Senior Pro
-                  <br>
-                  Weekday Morning
+                  <?php the_field("ticket_name") ?>
                 </p>
               </h3>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">Ticket Description:</li>
-                <li class="list-group-item">Weekday before 12:00</li>
-                <li class="list-group-item">Above 15 yrs old</li>
+                <li class="list-group-item"><?php the_field("time") ?></li>
+                <li class="list-group-item"><?php the_field("age_restriction") ?></li>
                 <li class="list-group-item">
-                  18-hole course
-                  <br>
-                  (DGU rated)
+                  <?php the_field("type_of_course") ?>
                 </li>
-                <li class="list-group-item">DGU card required</li>
+                <li class="list-group-item"><?php the_field("dgu_card_requirement") ?></li>
+                <li class="list-group-item">
+                  <a href="<?php the_field("product_link") ?>"><button type="button" class=" btn btn-primary btn-lg col-lg-12 col-sm-12 col-12">BOOK NOW</button></a>
+                </li>
               </ul>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-12 col-12">
+          <?php endwhile ?>
+          <?php wp_reset_postdata() ?>
+          <!-- <div class="col-lg-3 col-sm-12 col-12">
             <div class="card">
               <h3 class="card-title">
                 300 DKK
@@ -328,7 +331,7 @@
                 <li class="list-group-item">DGU card required</li>
               </ul>
             </div>
-          </div>
+          </div> -->
         </div>
 
       </div>

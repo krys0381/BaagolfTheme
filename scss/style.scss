@@ -31,28 +31,31 @@ Description: Used for the Blåvandshuk Golf website.
     }
 }
 
-.navigation {
+.header-navigation {
     display: flex;
     justify-content: flex-end;
 
-    p {
-        font: normal normal normal 16px/24px Montserrat;
-        letter-spacing: 0px;
-        color: $darktextcolor;
-        margin: 0 15px;
-        padding: 0;
-    }
+    ul {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
 
-    /* a {
-        font: normal normal normal 16px/24px Montserrat;
-        letter-spacing: 0px;
-        color: $tertiarybackgroundcolor;
-        margin: 0 15px;
+        li {
+            margin: 0 15px;
+            padding: 0;
 
-        &:hover {
-            color: $secondarybackgroundcolor;
+            a {
+                font: normal normal normal 18px/24px Montserrat;
+                letter-spacing: 0px;
+                color: $tertiarybackgroundcolor;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
         }
-    } */
+    }       
 }
 
 /* HOMEPAGE - HERO */
@@ -617,6 +620,32 @@ Description: Used for the Blåvandshuk Golf website.
                 width: 100%;
             }
         }
+    }
+
+    .footer-navigation {
+        display: flex;
+        justify-content: flex-end;
+    
+        ul {
+            list-style-type: none;
+            margin: 0;
+    
+            li {
+                margin: 10px 0;
+                padding: 0;
+    
+                a {
+                    font: normal normal normal 18px/24px Montserrat;
+                    letter-spacing: 0px;
+                    color: $tertiarybackgroundcolor;
+                    text-decoration: none;
+    
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }       
     }
 
     .footer-end-container {

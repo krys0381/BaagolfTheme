@@ -326,6 +326,16 @@
             letter-spacing: 0px;
             color: $tertiarybackgroundcolor;
             background: $secondarybackgroundcolor 0% 0% no-repeat padding-box;
+
+            .btn-primary{
+                padding: 8px 0;
+                width: 65%;
+                font: normal normal normal 16px/24px Montserrat;
+                border-radius: 0;
+                border-color: $tertiarybackgroundcolor;
+                color: $tertiarybackgroundcolor;
+                background: $secondarybackgroundcolor 0% 0% no-repeat padding-box;
+            }
         }
     }
 }

@@ -268,6 +268,15 @@ Description: Used for the Blåvandshuk Golf website.
   color: #0C365E;
   background: #D6EEFD 0% 0% no-repeat padding-box;
 }
+.hole18-component .cards-row .list-group-item .btn-primary {
+  padding: 8px 0;
+  width: 65%;
+  font: normal normal normal 16px/24px Montserrat;
+  border-radius: 0;
+  border-color: #0C365E;
+  color: #0C365E;
+  background: #D6EEFD 0% 0% no-repeat padding-box;
+}
 .checkout-component {
   background-color: #F4F4F5;
 }
@@ -295,26 +304,27 @@ Description: Used for the Blåvandshuk Golf website.
 .header .image-container img {
   width: 50%;
 }
-.navigation {
+.header-navigation {
   display: flex;
   justify-content: flex-end;
-  /* a {
-        font: normal normal normal 16px/24px Montserrat;
-        letter-spacing: 0px;
-        color: $tertiarybackgroundcolor;
-        margin: 0 15px;
-
-        &:hover {
-            color: $secondarybackgroundcolor;
-        }
-    } */
 }
-.navigation p {
-  font: normal normal normal 16px/24px Montserrat;
-  letter-spacing: 0px;
-  color: #09131D;
+.header-navigation ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+.header-navigation ul li {
   margin: 0 15px;
   padding: 0;
+}
+.header-navigation ul li a {
+  font: normal normal normal 18px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #0C365E;
+  text-decoration: none;
+}
+.header-navigation ul li a:hover {
+  text-decoration: underline;
 }
 /* HOMEPAGE - HERO */
 .hero-component {
@@ -760,6 +770,27 @@ Description: Used for the Blåvandshuk Golf website.
 }
 .footer-row .footer-text-container .contact-details-container p {
   width: 100%;
+}
+.footer-row .footer-navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-row .footer-navigation ul {
+  list-style-type: none;
+  margin: 0;
+}
+.footer-row .footer-navigation ul li {
+  margin: 10px 0;
+  padding: 0;
+}
+.footer-row .footer-navigation ul li a {
+  font: normal normal normal 18px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #0C365E;
+  text-decoration: none;
+}
+.footer-row .footer-navigation ul li a:hover {
+  text-decoration: underline;
 }
 .footer-row .footer-end-container {
   border-top: 1px solid #09131D;

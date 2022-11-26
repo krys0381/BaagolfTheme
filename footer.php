@@ -36,6 +36,9 @@
                             </div>
                         </div>
                     <div class="col-3 p-0 d-flex align-items-center justify-content-center">
+                        <div class="footer-navigation">
+                            <?php wp_nav_menu(array("theme_location" => "footer-nav-menu-location")) ?>
+                        </div>
                     </div>
             </div>                            
             <div class="footer-end-container col-12 d-flex p-3 align-items-center justify-content-center">

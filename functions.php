@@ -8,3 +8,9 @@ function load_resources()
     wp_enqueue_script("bootstrap", "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js", array(), true);
 }
 add_action("wp_enqueue_scripts", "load_resources");
+
+function blaagolf_register_menu_locations() {
+    register_nav_menu("heared-nav-menu-location", "Header Navigation Menu Location");
+    register_nav_menu("footer-nav-menu-location", "Footer Navigation Menu Location");
+}
+add_action("after_setup_theme", "blaagolf_register_menu_locations");

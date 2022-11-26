@@ -28,13 +28,8 @@
                         </div>
 
                         <div class="right-menu-container col-6 d-flex align-items-center justify-content-end g-2">
-                            <div class="navigation d-flex g-2">
-                                <p>HOME</p>
-                                <p>ABOUT</p>
-                                <p>GOLF</p>
-                                <p>MEMBERSHIP</p>
-                                <p>MORE</p>
-                                <p>CONTACT</p>
+                            <div class="header-navigation d-flex g-2">
+                                <?php wp_nav_menu(array("theme_location" => "heared-nav-menu-location")) ?>
                             </div>
                         </div> 
 
