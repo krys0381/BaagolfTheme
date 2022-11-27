@@ -45,23 +45,40 @@
       <div class="col-lg-12 col-sm-12 col-12 d-flex flex-column align-items-center" style="border-bottom: 1px solid #09131D; padding-bottom: 80px;">
 
       <div class="row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-center" style="width: 80%;">
-        <div class="col-lg-3 col-sm-12 col-12">
-          <div class="card">
-            <h3 class="card-title">
-              100 DKK
-              <p>Senior PP3</p>
-            </h3>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Ticket Description:</li>
-              <li class="list-group-item">Above 15 yrs old</li>
-              <li class="list-group-item">9-hole par 3 course</li>
-              <li class="list-group-item">
-                <a href="http://blvandshuk-golf.local/checkout/?line_items%5B0%5D%5Bprice_id%5D=4b22ab94-5c4b-499d-bcc8-5b3c82551bfd&line_items%5B0%5D%5Bquantity%5D=1"><button type="button" class=" btn btn-primary btn-lg col-lg-12 col-sm-12 col-12">BOOK NOW</button></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-12 col-12">
+        
+        <?php $courseLoop = new WP_Query(array(
+          'post_type' => 'ticket',
+          'tax_query' => array(
+            array(
+              'taxonomy' => 'course',
+              'field'    => 'slug',
+              'terms' => 'pp3-course'
+            ),
+          ),
+          )); 
+        ?>
+          <?php while ($courseLoop->have_posts()): $courseLoop->the_post() ?>
+            <div class="col-lg-3 col-sm-12 col-12">
+              <div class="card">
+                <h3 class="card-title">
+                  <?php the_field("ticket_price") ?> DKK
+                  <p><?php the_field("ticket_name") ?></p>
+                </h3>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Ticket Description:</li>
+                  <li class="list-group-item"><?php the_field("time_of_day") ?></li>
+                  <li class="list-group-item"><?php the_field("age_restriction") ?></li>
+                  <li class="list-group-item"><?php the_field("type_of_course") ?></li>
+                  <li class="list-group-item"><?php the_field("dgu_card_requirement") ?></li>
+                  <li class="list-group-item">
+                    <a href="<?php the_field("product_link") ?>"><button type="button" class=" btn btn-primary btn-lg col-lg-12 col-sm-12 col-12">BOOK NOW</button></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          <?php endwhile ?>
+        <?php wp_reset_postdata() ?>
+        <!-- <div class="col-lg-3 col-sm-12 col-12">
           <div class="card">
             <h3 class="card-title">
               50 DKK
@@ -89,7 +106,7 @@
               <li class="list-group-item">Tee balls</li>
             </ul>
           </div>
-        </div>
+        </div> -->
       </div>
 
       </div>
@@ -125,24 +142,40 @@
       <div class="col-lg-12 col-sm-12 col-12 d-flex flex-column align-items-center" style="border-bottom: 1px solid #09131D; padding-bottom: 80px;">
 
       <div class="row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-center" style="width: 80%;">
-        <div class="col-lg-3 col-sm-12 col-12">
-          <div class="card">
-            <h3 class="card-title">
-              175 DKK
-              <p>Senior PP4</p>
-            </h3>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Ticket Description:</li>
-              <li class="list-group-item">Above 15 yrs old</li>
-              <li class="list-group-item">
-                9-hole par 4 course
-                <br>
-                (DGU rated)
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-12 col-12">
+
+        <?php $courseLoop = new WP_Query(array(
+          'post_type' => 'ticket',
+          'tax_query' => array(
+            array(
+              'taxonomy' => 'course',
+              'field'    => 'slug',
+              'terms' => 'pp4-course'
+            ),
+          ),
+          )); 
+        ?>
+          <?php while ($courseLoop->have_posts()): $courseLoop->the_post() ?>
+            <div class="col-lg-3 col-sm-12 col-12">
+              <div class="card">
+                <h3 class="card-title">
+                  <?php the_field("ticket_price") ?> DKK
+                  <p><?php the_field("ticket_name") ?></p>
+                </h3>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Ticket Description:</li>
+                  <li class="list-group-item"><?php the_field("time_of_day") ?></li>
+                  <li class="list-group-item"><?php the_field("age_restriction") ?></li>
+                  <li class="list-group-item"><?php the_field("type_of_course") ?></li>
+                  <li class="list-group-item"><?php the_field("dgu_card_requirement") ?></li>
+                  <li class="list-group-item">
+                    <a href="<?php the_field("product_link") ?>"><button type="button" class=" btn btn-primary btn-lg col-lg-12 col-sm-12 col-12">BOOK NOW</button></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          <?php endwhile ?>
+        <?php wp_reset_postdata() ?>
+        <!-- <div class="col-lg-3 col-sm-12 col-12">
           <div class="card">
             <h3 class="card-title">
               100 DKK
@@ -178,7 +211,7 @@
               <li class="list-group-item">Tee balls</li>
             </ul>
           </div>
-        </div>
+        </div> -->
       </div>
 
       </div>
@@ -214,31 +247,41 @@
       <div class="col-lg-12 col-sm-12 col-12 d-flex flex-column align-items-center" style="border-bottom: 1px solid #09131D; padding-bottom: 80px;">
 
         <div class="row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-center" style="width: 80%;">
-          <?php $loop = new WP_Query(array("post_type" => "ticket")); ?>
-          <?php while ($loop->have_posts()): $loop->the_post() ?>
-          <div class="col-lg-3 col-sm-12 col-12">
-            <div class="card">
-              <h3 class="card-title">
-                <?php the_field("ticket_price") ?> DKK
-                <p>
-                  <?php the_field("ticket_name") ?>
-                </p>
-              </h3>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Ticket Description:</li>
-                <li class="list-group-item"><?php the_field("time") ?></li>
-                <li class="list-group-item"><?php the_field("age_restriction") ?></li>
-                <li class="list-group-item">
-                  <?php the_field("type_of_course") ?>
-                </li>
-                <li class="list-group-item"><?php the_field("dgu_card_requirement") ?></li>
-                <li class="list-group-item">
-                  <a href="<?php the_field("product_link") ?>"><button type="button" class=" btn btn-primary btn-lg col-lg-12 col-sm-12 col-12">BOOK NOW</button></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <?php endwhile ?>
+          <?php $courseLoop = new WP_Query(array(
+            'post_type' => 'ticket',
+            'tax_query' => array(
+              array(
+                'taxonomy' => 'course',
+                'field'    => 'slug',
+                'terms' => '18-hole-course'
+              ),
+            ),
+            )); 
+          ?>
+            <?php while ($courseLoop->have_posts()): $courseLoop->the_post() ?>
+              <div class="col-lg-3 col-sm-12 col-12">
+                <div class="card">
+                  <h3 class="card-title">
+                    <?php the_field("ticket_price") ?> DKK
+                    <p>
+                      <?php the_field("ticket_name") ?>
+                    </p>
+                  </h3>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Ticket Description:</li>
+                    <li class="list-group-item"><?php the_field("time_of_day") ?></li>
+                    <li class="list-group-item"><?php the_field("age_restriction") ?></li>
+                    <li class="list-group-item">
+                      <?php the_field("type_of_course") ?>
+                    </li>
+                    <li class="list-group-item"><?php the_field("dgu_card_requirement") ?></li>
+                    <li class="list-group-item">
+                      <a href="<?php the_field("product_link") ?>"><button type="button" class=" btn btn-primary btn-lg col-lg-12 col-sm-12 col-12">BOOK NOW</button></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            <?php endwhile ?>
           <?php wp_reset_postdata() ?>
           <!-- <div class="col-lg-3 col-sm-12 col-12">
             <div class="card">

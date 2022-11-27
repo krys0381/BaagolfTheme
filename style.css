@@ -193,6 +193,15 @@ Description: Used for the Blåvandshuk Golf website.
   color: #0C365E;
   background: #D6EEFD 0% 0% no-repeat padding-box;
 }
+.payandplay9par4-component .cards-row .list-group-item .btn-primary {
+  padding: 8px 0;
+  width: 65%;
+  font: normal normal normal 16px/24px Montserrat;
+  border-radius: 0;
+  border-color: #0C365E;
+  color: #0C365E;
+  background: #D6EEFD 0% 0% no-repeat padding-box;
+}
 /* GREEN FEES - 18-HOLE COURSE */
 .hole18-component {
   background-color: #F4F4F5;
