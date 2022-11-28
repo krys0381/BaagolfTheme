@@ -1,30 +1,14 @@
 <?php get_header() ?>
 
-<!-- HOMEPAGE - HERO -->
-
-<div class="hero-component container-fluid d-flex align-items-center justify-content-center overflow-hidden">  
-  <div class="container content-container d-flex align-items-center justify-content-center">
-    <div class="row d-flex flex-column align-items-center justify-content-start">
-      <div class="hero-content-container col-lg-10 col-sm-12 col-12 d-flex flex-column flex-wrap align-items-center justify-content-center">
-        <h1>Exciting activities await you in the most hygge golf club in Blåvand</h1>
-        <p class="col-lg-8 my-3">
-          We are more than just a golf center, we are also a popular outdoor activity destination. We offer affordable outdoor activities for families, friends, companies, and golf enthusiasts.
-        </p>
-        <button type="button" class="btn btn-primary btn-lg 2 col-lg-2 col-md-12 col-sm-12 col-12">BOOK NOW</button>
-      </div>
-    </div>
-  </div>
-  <div class="bg-image-container d-none d-xl-flex align-item-center justify-self-center">
-    <video height="900px" autoplay muted loop>
-      <source src="<?php echo get_stylesheet_directory_uri() . "/videos/Blaavandshuk Golf.mp4" ?>" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>    
-  </div>
-</div>
+<?php if(have_posts()): ?>
+  <?php while(have_posts()): the_post() ?>
+    <?php the_content() ?>
+  <?php endwhile; ?>
+<?php endif; ?>
 
 <!-- HOMEPAGE - INTRODUCTION -->
 
-<div class="introduction-component container-fluid">
+<!-- <div class="introduction-component container-fluid">
   
   <div class="introduction-row g-0 container">
     <div class="row d-flex justify-content-between align-items-start">
@@ -43,7 +27,7 @@
     </div>
   </div>
 
-  <!-- HOMEPAGE - SERVICES -->
+  HOMEPAGE - SERVICES
 
   <div class="ourservices-row container  g-0">
     <div class="row d-flex justify-content-center">
@@ -85,7 +69,7 @@
 
 </div>
 
-<!-- SPECIAL OFFER -->
+SPECIAL OFFER
 
 <div class="offer-component container-fluid d-flex align-items-center justify-content-center overflow-hidden">  
   <div class="container content-container d-flex align-items-center justify-content-center">
@@ -104,7 +88,7 @@
   </div>
 </div>
 
-<!-- HOMEPAGE - OUR GOLF COURSES -->
+HOMEPAGE - OUR GOLF COURSES
 
 <div class="golfcourses-component container-fluid">
   
@@ -210,7 +194,7 @@
   </div>
 </div>
 
-<!-- HOMEPAGE - BECOME A MEMBER -->
+HOMEPAGE - BECOME A MEMBER
 
 <div class="homepage-container container-fluid overflow-hidden">
   <div class="container">
@@ -235,7 +219,7 @@
   </div>
 </div>
 
-<!-- HOMEPAGE - FAMILY AND FRIENDS -->
+HOMEPAGE - FAMILY AND FRIENDS
 
 <div class="homepage-container container-fluid overflow-hidden">
   <div class="container">
@@ -260,7 +244,7 @@
   </div>
 </div>
 
-<!-- HOMEPAGE - TOURNAMENTS -->
+HOMEPAGE - TOURNAMENTS
 
 <div class="homepage-container container-fluid overflow-hidden">
   <div class="container">
@@ -285,7 +269,7 @@
   </div>
 </div>
 
-<!-- HOMEPAGE - BECOME A SPONSOR -->
+HOMEPAGE - BECOME A SPONSOR
 
 <div class="homepage-container container-fluid overflow-hidden">
   <div class="container">
@@ -310,7 +294,7 @@
   </div>
 </div>
 
-<!-- HOMEPAGE - TRUSTED BY -->
+HOMEPAGE - TRUSTED BY
 
 <div class="trustedby-component">
   <div class="trustedby-row g-0 container">
@@ -346,29 +330,7 @@
   </div>
 </div>
 
-<!-- HOMEPAGE - TESTIMONIALS -->
-
-<!-- <div class="testimonials-component container-fluid">
-  
-  <div class="testimonials-row g-0 container">
-    <div class="row d-flex justify-content-between align-items-start">
-      <div class="col-lg-12 col-sm-12 col-12 d-flex flex-column align-items-center">
-        <div class="testimonials-container d-flex flex-column justify-content-between">
-          <div class="testimonials-text-container">
-            <h2>Testimonials</h2>
-          </div>
-          <div class="testimonials-text-container d-flex flex-column align-items-center">
-            <p>
-              What our guests and club members say about us.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
-
-<!-- HOMEPAGE - NEWS & UPDATES -->
+HOMEPAGE - NEWS & UPDATES
 
 <div class="newsupdates-component container-fluid">
   
@@ -458,7 +420,7 @@
 
 </div>
 
-<!-- NEWSLETTER -->
+NEWSLETTER
 
 <div class="newsletter-component container-fluid d-flex align-items-center justify-content-center overflow-hidden">  
   <div class="container content-container d-flex align-items-center justify-content-center">
@@ -482,6 +444,6 @@
   <div class="bg-image-container d-xl-flex align-item-center justify-self-center">
     <img src="<?php echo get_stylesheet_directory_uri() . "/images/pexels-nadim-shaikh-7758348.jpeg" ?>" alt="">
   </div>
-</div>
+</div> -->
     
 <?php get_footer() ?>

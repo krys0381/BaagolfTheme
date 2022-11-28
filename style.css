@@ -358,8 +358,9 @@ Description: Used for the Blåvandshuk Golf website.
   color: #F4F4F5;
   width: 100%;
 }
-.hero-component .hero-content-container .btn-primary {
-  padding: 10px 0;
+.hero-component .hero-content-container a .btn-primary {
+  width: 100%;
+  padding: 10px 10px;
   font: normal normal normal 20px/24px Montserrat;
   letter-spacing: 0px;
   color: #FFFFFF;
@@ -439,15 +440,15 @@ Description: Used for the Blåvandshuk Golf website.
   color: #0C365E;
 }
 .offer-component .offer-content-container p {
-  width: 60%;
+  width: 75%;
   text-align: center;
   font: normal normal normal 16px/24px Montserrat;
   letter-spacing: 0px;
   color: #09131D;
 }
-.offer-component .offer-content-container .btn-primary {
-  padding: 10px 0;
-  width: 50%;
+.offer-component .offer-content-container a .btn-primary {
+  width: 100%;
+  padding: 10px 10px;
   font: normal normal normal 20px/24px Montserrat;
   letter-spacing: 0px;
   color: #D6EEFD;
