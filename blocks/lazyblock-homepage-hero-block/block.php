@@ -14,7 +14,7 @@
   </div>
   <div class="bg-image-container d-none d-xl-flex align-item-center justify-self-center">
     <video height="900px" autoplay muted loop>
-      <source src="<?php echo get_stylesheet_directory_uri() . "/videos/Blaavandshuk Golf.mp4" ?>" type="video/mp4">
+      <source src="<?php echo $attributes["background-video"]?>" type="video/mp4">
       Your browser does not support the video tag.
     </video>    
   </div>

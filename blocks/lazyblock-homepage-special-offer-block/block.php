@@ -13,6 +13,6 @@
     </div>
   </div>
   <div class="bg-image-container d-none d-xl-flex align-item-center justify-self-center">
-    <img src="<?php echo get_stylesheet_directory_uri() . "/images/two-male-golfers-sitting-cart.jpeg" ?>" alt="">
+    <img src="<?php echo $attributes["background-image"]?>" alt="">
   </div>
 </div>
