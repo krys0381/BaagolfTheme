@@ -354,13 +354,17 @@ Description: Used for the Blåvandshuk Golf website.
                 margin: 0 0 20px 0!important;
             }
 
-            .btn-primary{
-                padding: 10px 0;
-                font: normal normal normal 16px/24px Montserrat;
-                border-radius: 0;
-                border-color: $tertiarybackgroundcolor;
-                color: $tertiarybackgroundcolor;
-                background: $primarybackgroundcolor 0% 0% no-repeat padding-box;
+            a {
+                .btn-primary{
+                    width: 100%;
+                    padding: 10px 10px;
+                    font: normal normal normal 16px/24px Montserrat;
+                    border-radius: 0;
+                    border-color: $tertiarybackgroundcolor;
+                    color: $tertiarybackgroundcolor;
+                    background: $primarybackgroundcolor 0% 0% no-repeat padding-box;
+                }
+
             }
         }
     }
@@ -457,6 +461,7 @@ Description: Used for the Blåvandshuk Golf website.
             }
     
             p {
+                width: 100%;
                 font: normal normal normal 16px/24px Montserrat;
                 letter-spacing: 0px;
                 color: $darktextcolor;
@@ -500,19 +505,37 @@ Description: Used for the Blåvandshuk Golf website.
                     }
                 }
     
-                .newsupdates-btn {
-                    .btn-primary{
-                        padding: 10px 0;
-                        font: normal normal normal 16px/24px Montserrat;
-                        border-radius: 0;
-                        border-color: $tertiarybackgroundcolor;
-                        color: $tertiarybackgroundcolor;
-                        background: $secondarybackgroundcolor 0% 0% no-repeat padding-box;
+                .newsupdates-card-btn {
+                    a {
+                        .btn-primary{
+                            width: 100%;
+                            padding: 10px 10px;
+                            font: normal normal normal 16px/24px Montserrat;
+                            border-radius: 0;
+                            border-color: $tertiarybackgroundcolor;
+                            color: $tertiarybackgroundcolor;
+                            background: $secondarybackgroundcolor 0% 0% no-repeat padding-box;
+                        }
                     }
                 }
             }
         }
-    }  
+    }
+
+    .newsupdates-btn {
+        a {
+            .btn-primary{
+                width: 100%;
+                margin-top: 20px;
+                padding: 10px 10px;
+                font: normal normal normal 16px/24px Montserrat;
+                border-radius: 0;
+                border-color: $tertiarybackgroundcolor;
+                color: $tertiarybackgroundcolor;
+                background: $primarybackgroundcolor 0% 0% no-repeat padding-box;
+            }
+        }
+    }
 }
 
 /* NEWSLETTER */
