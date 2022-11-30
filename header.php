@@ -19,11 +19,9 @@
 
                         <div class="left-menu-container d-flex col-6 align-items-center justify-content-start" >
                             <div class="logo-container col-5">
-                                <a href="/">
-                                    <div class="image-container d-flex justify-content-start align-items-center">
-                                        <img src="<?php echo get_stylesheet_directory_uri() . "/images/Blåvandshuk golf logo.png" ?>" alt="">
-                                    </div>
-                                </a>
+                                <div class="image-container d-flex justify-content-start align-items-center">
+                                    <?php the_custom_logo() ?>
+                                </div>
                             </div>
                         </div>
 

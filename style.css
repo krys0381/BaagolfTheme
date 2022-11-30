@@ -307,11 +307,12 @@ Description: Used for the Blåvandshuk Golf website.
   background-position: center;
   background-repeat: no-repeat;
   height: 100px;
-  width: 100%;
+  width: 60%;
   padding: 10px;
 }
 .header .image-container img {
-  width: 50%;
+  width: 100%;
+  height: 100%;
 }
 .header-navigation {
   display: flex;
