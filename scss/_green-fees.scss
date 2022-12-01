@@ -135,6 +135,11 @@
                 border-color: $tertiarybackgroundcolor;
                 color: $tertiarybackgroundcolor;
                 background: $secondarybackgroundcolor 0% 0% no-repeat padding-box;
+
+                &:hover {
+                    background: $tertiarybackgroundcolor 0% 0% no-repeat padding-box;
+                    color: $secondarybackgroundcolor;
+                }
             }
         }
     }
@@ -349,6 +354,11 @@
                 border-color: $tertiarybackgroundcolor;
                 color: $tertiarybackgroundcolor;
                 background: $secondarybackgroundcolor 0% 0% no-repeat padding-box;
+
+                &:hover {
+                    background: $tertiarybackgroundcolor 0% 0% no-repeat padding-box;
+                    color: $secondarybackgroundcolor;
+                }
             }
         }
     }
