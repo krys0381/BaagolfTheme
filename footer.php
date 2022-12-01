@@ -5,7 +5,7 @@
             <div class="footer-menu-row col-12 d-flex align-items-top justify-content-center">
                     <div class="logo-container col-3 p-0 d-flex align-items-top justify-content-start">
                         <div class="image-container">
-                            <a href="/"><img src="<?php echo get_stylesheet_directory_uri() . "/images/Blåvandshuk golf logo.png" ?>" alt=""></a>
+                            <?php the_custom_logo() ?>
                         </div>
                     </div>
                     <div class="col-3 p-0 d-flex align-items-top justify-content-start">

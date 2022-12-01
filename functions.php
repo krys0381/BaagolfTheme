@@ -16,6 +16,6 @@ function blaagolf_register_menu_locations() {
 add_action("after_setup_theme", "blaagolf_register_menu_locations");
 
 function blaagolf_setup_custom_logo() {
-    add_theme_support( "custom-logo");
+    add_theme_support("custom-logo");
 }
 add_action("after_setup_theme", "blaagolf_setup_custom_logo");
