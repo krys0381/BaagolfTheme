@@ -269,6 +269,9 @@ Description: Used for the Blåvandshuk Golf website.
   border-radius: 0;
 }
 .hole18-component .cards-row .card-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   font: normal normal normal 24px/45px Montserrat;
   letter-spacing: 0px;
@@ -277,6 +280,7 @@ Description: Used for the Blåvandshuk Golf website.
   padding: 15px 0;
 }
 .hole18-component .cards-row p {
+  width: 75%;
   text-align: center;
   font: normal normal bold 16px/45px Montserrat;
   letter-spacing: 0px;
@@ -331,7 +335,7 @@ Description: Used for the Blåvandshuk Golf website.
 }
 .header .image-container img {
   width: 100%;
-  height: 100%;
+  height: 99%;
 }
 .header-navigation {
   display: flex;
