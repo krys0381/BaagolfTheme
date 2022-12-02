@@ -1,14 +1,14 @@
-.checkout-component{
+.order-component{
     background-color: $primarybackgroundcolor;
     padding-top: 100px;
 
-    .checkout-row {
+    .order-row {
         .row{
             padding: 80px 0;
         }
     }
 
-    .checkout-container {
+    .order-container {
         width: 75%;
     }
 }
