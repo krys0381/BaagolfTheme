@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /blaagolf/wp-admin/admin-ajax.php
+Disallow: /blaagolf/wp-admin/
+Disallow: /wp-content/plugins/
+
+Sitemap: https://hotel-cms.site/blaagolf/sitemap.xml
+Sitemap: https://hotel-cms.site/blaagolf/sitemap.rss

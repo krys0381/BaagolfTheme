@@ -1,9 +1,11 @@
-/* HOMEPAGE - HERO */
+/* GREEN FEES - HERO */
 
 .green-hero-component{
     position: relative;
-    min-height: 500px;
+    min-height: 750px;
     background-color: $primarybackgroundcolor;
+    padding-top: 125px;
+    padding-bottom: 25px;
 
     .green-hero-content-container{
         z-index: 1;
@@ -18,10 +20,10 @@
     
         p {
             text-align: center;
-            font: normal normal normal 16px/24px Montserrat;
+            font: normal normal normal 29px/45px Montserrat;
             letter-spacing: 0px;
             color: $primarybackgroundcolor;
-            width: 55%;
+            width: 100%;
         }
     }
 

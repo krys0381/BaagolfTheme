@@ -4,11 +4,13 @@ Theme Name: Blaagolf Theme
 Author: EASV Students
 Description: Used for the Blåvandshuk Golf website.
 */
-/* HOMEPAGE - HERO */
+/* GREEN FEES - HERO */
 .green-hero-component {
   position: relative;
-  min-height: 500px;
+  min-height: 750px;
   background-color: #F4F4F5;
+  padding-top: 125px;
+  padding-bottom: 25px;
 }
 .green-hero-component .green-hero-content-container {
   z-index: 1;
@@ -22,10 +24,10 @@ Description: Used for the Blåvandshuk Golf website.
 }
 .green-hero-component .green-hero-content-container p {
   text-align: center;
-  font: normal normal normal 16px/24px Montserrat;
+  font: normal normal normal 29px/45px Montserrat;
   letter-spacing: 0px;
   color: #F4F4F5;
-  width: 55%;
+  width: 100%;
 }
 .green-hero-component .bg-image-container {
   width: 100%;
@@ -326,12 +328,107 @@ Description: Used for the Blåvandshuk Golf website.
 .checkout-component .checkout-container {
   width: 75%;
 }
+/* CONTACT - HERO */
+.contact-hero-component {
+  position: relative;
+  min-height: 750px;
+  background-color: #F4F4F5;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.contact-hero-component .contact-hero-content-container {
+  z-index: 1;
+  padding-bottom: 50px;
+  width: 100%;
+}
+.contact-hero-component .contact-hero-content-container h1 {
+  text-align: center;
+  font: normal normal 600 60px/104px Montserrat;
+  letter-spacing: 0px;
+  color: #F4F4F5;
+}
+.contact-hero-component .contact-hero-content-container p {
+  text-align: center;
+  font: normal normal normal 29px/45px Montserrat;
+  letter-spacing: 0px;
+  color: #F4F4F5;
+  width: 100%;
+}
+.contact-hero-component .bg-image-container {
+  width: 100%;
+  position: absolute;
+}
+.contact-hero-component .bg-image-container img {
+  width: 100%;
+  filter: brightness(60%);
+}
+/* CONTACT - CONTACT FORM & MAP */
+.contact-container {
+  background-color: #F4F4F5;
+}
+.contact-container .row {
+  padding: 80px 0;
+  border-bottom: 1px solid #09131D;
+}
+.contact-container .row .contact-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contact-container .row .contact-form-container form {
+  width: 100%;
+}
+.contact-container .row .contact-form-container .form-control {
+  border-radius: 0;
+  height: 40px;
+  background-color: white;
+  border-color: #0C365E;
+  font: normal normal normal 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #09131D;
+}
+.contact-container .row .contact-form-container #messageInput {
+  height: 128px;
+}
+.contact-container .row .contact-form-container .form-label {
+  font: normal normal normal 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #09131D;
+}
+.contact-container .row .contact-form-container .contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-container .row .contact-form-container .contact-container .contact-form-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin: 20px 0;
+}
+.contact-container .row .contact-form-container a .btn-primary {
+  width: 35%;
+  padding: 10px 10px;
+  font: normal normal normal 16px/24px Montserrat;
+  border-radius: 0;
+  border-color: #0C365E;
+  color: #F4F4F5;
+  background: #0C365E 0% 0% no-repeat padding-box;
+}
+.contact-container .row .contact-form-container a .btn-primary:hover {
+  background: #D6EEFD 0% 0% no-repeat padding-box;
+  color: #0C365E;
+}
 /* HEADER */
 .header-row {
   padding: 0 !important;
 }
 .header {
   background-color: #F4F4F5;
+  position: fixed;
+  z-index: 2000;
 }
 .header .image-container {
   background-size: contain;
@@ -386,8 +483,9 @@ Description: Used for the Blåvandshuk Golf website.
 /* HOMEPAGE - HERO */
 .hero-component {
   position: relative;
-  min-height: 650px;
+  min-height: 750px;
   background-color: #F4F4F5;
+  padding-top: 150px;
 }
 .hero-component .hero-content-container {
   z-index: 1;
@@ -417,9 +515,8 @@ Description: Used for the Blåvandshuk Golf website.
   background: #0C365E 0% 0% no-repeat padding-box;
 }
 .hero-component .hero-content-container a .btn-primary:hover {
-  background: #F4F4F5 0% 0% no-repeat padding-box;
+  background: #D6EEFD 0% 0% no-repeat padding-box;
   color: #0C365E;
-  border-color: #F4F4F5;
 }
 .hero-component .bg-image-container {
   width: 100%;
@@ -596,7 +693,7 @@ Description: Used for the Blåvandshuk Golf website.
   background: #0C365E 0% 0% no-repeat padding-box;
   color: #D6EEFD;
 }
-/* HOMEPAGE - BECOME A MEMBER; FRIEND AND FAMILY; TOURNAMENTS; BECOME A SPONSOR */
+/* HOMEPAGE - POST LEFT & POST RIGHT */
 .homepage-container {
   background-color: #F4F4F5;
 }
@@ -777,7 +874,7 @@ Description: Used for the Blåvandshuk Golf website.
   background: #0C365E 0% 0% no-repeat padding-box;
   color: #F4F4F5;
 }
-/* NEWSLETTER */
+/* HOMEPAGE - NEWSLETTER */
 .newsletter-component {
   position: relative;
   min-height: 500px;
@@ -836,6 +933,9 @@ Description: Used for the Blåvandshuk Golf website.
 /* FOOTER */
 .footer {
   background-color: #F4F4F5;
+}
+.footer .container {
+  padding: 0;
 }
 .footer-row {
   display: flex;

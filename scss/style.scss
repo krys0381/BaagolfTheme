@@ -7,6 +7,7 @@ Description: Used for the Blåvandshuk Golf website.
 @import "variables";
 @import "green-fees";
 @import "checkout";
+@import "contact";
 
 /* HEADER */
 
@@ -16,6 +17,8 @@ Description: Used for the Blåvandshuk Golf website.
 
 .header{
     background-color: $primarybackgroundcolor;
+    position: fixed;
+    z-index: 2000;
 
     .image-container{
         background-size: contain;
@@ -83,8 +86,9 @@ Description: Used for the Blåvandshuk Golf website.
 
 .hero-component{
     position: relative;
-    min-height: 650px;
+    min-height: 750px;
     background-color: $primarybackgroundcolor;
+    padding-top: 150px;
 
     .hero-content-container{
         z-index: 1;
@@ -118,9 +122,8 @@ Description: Used for the Blåvandshuk Golf website.
                 background: $tertiarybackgroundcolor 0% 0% no-repeat padding-box;
 
                 &:hover {
-                    background: $primarybackgroundcolor 0% 0% no-repeat padding-box;
+                    background: $secondarybackgroundcolor 0% 0% no-repeat padding-box;
                     color: $tertiarybackgroundcolor;
-                    border-color: $primarybackgroundcolor;
                 }
             }
         }
@@ -356,7 +359,7 @@ Description: Used for the Blåvandshuk Golf website.
     }
 }
 
-/* HOMEPAGE - BECOME A MEMBER; FRIEND AND FAMILY; TOURNAMENTS; BECOME A SPONSOR */
+/* HOMEPAGE - POST LEFT & POST RIGHT */
 
 .homepage-container {
     background-color: $primarybackgroundcolor;
@@ -592,7 +595,7 @@ Description: Used for the Blåvandshuk Golf website.
     }
 }
 
-/* NEWSLETTER */
+/* HOMEPAGE - NEWSLETTER */
 
 .newsletter-component{
     position: relative;
@@ -664,6 +667,10 @@ Description: Used for the Blåvandshuk Golf website.
 
 .footer{
     background-color: $primarybackgroundcolor;
+
+    .container {
+        padding: 0;
+    }
 }
 
 .footer-row {
