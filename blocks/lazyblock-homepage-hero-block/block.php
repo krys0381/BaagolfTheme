@@ -12,7 +12,7 @@
       </div>
     </div>
   </div>
-  <div class="bg-image-container d-none d-xl-flex align-item-center justify-self-center">
+  <div class="bg-image-container d-none d-xl-flex d-lg-flex align-item-center justify-self-center">
     <video height="900px" autoplay muted loop>
       <source src="<?php echo $attributes["background-video"]?>" type="video/mp4">
       Your browser does not support the video tag.

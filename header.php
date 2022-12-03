@@ -14,8 +14,8 @@
     <header>
         <div class="header container-fluid">
             <div class="container">
-                <div class="header-row row d-none d-xl-flex">
-                    <div class="desktop-menu-container d-none d-xl-flex justify-content-between">
+                <div class="header-row row d-flex">
+                    <div class="desktop-menu-container d-flex justify-content-between">
 
                         <div class="left-menu-container d-flex col-4 align-items-center justify-content-start" >
                             <div class="logo-container col-8">

@@ -321,12 +321,18 @@ Description: Used for the Blåvandshuk Golf website.
 }
 .checkout-component {
   background-color: #F4F4F5;
+  padding-top: 75px !important;
 }
 .checkout-component .checkout-row .row {
-  padding: 80px 0;
+  padding: 90px 0 80px 0;
 }
 .checkout-component .checkout-container {
   width: 75%;
+}
+.checkout-component .checkout-container h2 {
+  font: normal normal bold 32px/45px Montserrat;
+  letter-spacing: 0px;
+  color: #0C365E;
 }
 /* CONTACT - HERO */
 .contact-hero-component {
@@ -421,6 +427,20 @@ Description: Used for the Blåvandshuk Golf website.
   background: #D6EEFD 0% 0% no-repeat padding-box;
   color: #0C365E;
 }
+.order-component {
+  background-color: #F4F4F5;
+}
+.order-component .order-row .row {
+  padding: 90px 0 80px 0;
+}
+.order-component .order-container {
+  width: 75%;
+}
+.order-component .order-container h2 {
+  font: normal normal bold 32px/45px Montserrat;
+  letter-spacing: 0px;
+  color: #0C365E;
+}
 /* HEADER */
 .header-row {
   padding: 0 !important;
@@ -428,7 +448,7 @@ Description: Used for the Blåvandshuk Golf website.
 .header {
   background-color: #F4F4F5;
   position: fixed;
-  z-index: 2000;
+  z-index: 3;
 }
 .header .image-container {
   background-size: contain;
@@ -496,6 +516,7 @@ Description: Used for the Blåvandshuk Golf website.
   font: normal normal 600 60px/104px Montserrat;
   letter-spacing: 0px;
   color: #F4F4F5;
+  margin: 0 0 10px 0;
 }
 .hero-component .hero-content-container p {
   text-align: center;
@@ -1005,4 +1026,70 @@ Description: Used for the Blåvandshuk Golf website.
   font: normal normal normal 16px/24px Montserrat;
   letter-spacing: 0px;
   color: #09131D;
+}
+@media (max-width: 1199.98px) {
+  .newsupdates-component .newsupdates-list-container .newsupdates-list .newsupdates-list-description-container .newsupdates-card-btn {
+    width: 100%;
+  }
+}
+@media (max-width: 991.98px) {
+  .hero-component{
+    background-color: #D6EEFD;
+  }
+  .hero-component .hero-content-container h1 {
+    color: #0C365E;
+  }
+  .hero-component .hero-content-container p {
+    color: #09131D;
+  }
+  .golfcourses-component .card-group .card {
+    margin: 0 0 50px 0;
+  }
+  .homepage-container .row .homepage-text-container h2 {
+    margin: 20px 0 20px 0!important;
+  }  
+  .homepage-container .row .homepage-text-container a .btn-primary {
+    margin: 0 0 20px 0;
+  }
+  .trustedby-component .trustedby-container .trustedby-images-container {
+    flex-direction: column;
+  }   
+  .trustedby-component .trustedby-container .trustedby-images-container .trustedby-image {
+    margin: 15px 0 15px 0;
+  }
+  .newsupdates-component .newsupdates-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .newsupdates-component .newsupdates-btn a {
+    width: 40%;
+  }
+  .newsletter-component .newsletter-content-container .newsletter-form-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 767.98px) {
+  .hero-component .hero-content-container h1 {
+    font-size: 50px;
+  }
+  .offer-component {
+    background-color: #0C365E;
+  }
+  .offer-component .row {
+    align-items: center!important;
+  }
+  .offer-component .offer-content-container {
+    width: 80%;
+  }
+  .newsletter-component {
+    background-color: #D6EEFD;
+  }
+  .newsletter-component .newsletter-content-container h2 {
+    color: #0C365E;
+  }
+  .newsletter-component .newsletter-content-container p {
+    color: #09131D;
+  }
 }
