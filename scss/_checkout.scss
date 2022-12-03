@@ -1,6 +1,6 @@
 .checkout-component{
     background-color: $primarybackgroundcolor;
-    padding-top: 100px;
+    padding-top: 75px!important;
 
     .checkout-row {
         .row{
@@ -10,5 +10,11 @@
 
     .checkout-container {
         width: 75%;
+
+        h2 {
+            font: normal normal bold 32px/45px Montserrat;
+            letter-spacing: 0px;
+            color: $tertiarybackgroundcolor;
+        }
     }
 }
