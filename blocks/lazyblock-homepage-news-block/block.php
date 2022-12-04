@@ -36,7 +36,7 @@
                   </div>
                   <div class="newsupdates-list-description d-flex col-lg-12 col-sm-12 col-12 flex-wrap">
                     <div class="newsupdates-card-btn col-lg-5 col-sm-12 col-12">
-                      <a href="<?php echo $newsCard["card-button-link"]?>"><button type="button" class=" btn btn-primary btn-lg col-lg-12 col-sm-12 col-12">READ MORE</button></a>
+                      <a href="<?php echo $newsCard["card-button-link"]?>"><button type="button" class=" btn btn-primary btn-lg col-lg-12 col-sm-12 col-12"><?php echo $attributes["card-button-text"]?></button></a>
                     </div>
                   </div>
                 </div>
@@ -51,7 +51,7 @@
     <div class="row d-flex justify-content-between align-items-start">
         <div class="col-lg-12 col-sm-12 col-12 d-flex flex-column align-items-center">
             <div class="newsupdates-btn col-lg-2 col-sm-12 col-12 me-3 mb-3">
-                <a href="<?php echo $attributes["button-link"]?>"><button type="button" class=" btn btn-primary btn-lg col-lg-12 col-sm-12 col-12">VIEW ALL NEWS</button></a>
+                <a href="<?php echo $attributes["button-link"]?>"><button type="button" class=" btn btn-primary btn-lg col-lg-12 col-sm-12 col-12"><?php echo $attributes["button-text"]?></button></a>
             </div>
         </div>
     </div>

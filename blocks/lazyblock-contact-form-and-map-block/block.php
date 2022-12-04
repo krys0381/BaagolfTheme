@@ -22,7 +22,7 @@
                     <label class="form-label"><?php echo $attributes["form-label-4"]?></label>
                     <textarea type="text" class="form-control" id="messageInput" placeholder="" required></textarea>
                 </div>
-                <a href="<?php echo $attributes["button-link"]?>"><button type="submit" class="btn btn-primary col-12 col-xl-12 btn-lg mt-3" name="send">SEND MESSAGE</button></a>
+                <a href="<?php echo $attributes["button-link"]?>"><button type="submit" class="btn btn-primary col-12 col-xl-12 btn-lg mt-3" name="send"><?php echo $attributes["button-text"]?></button></a>
             </form>
         </div>
       </div>

@@ -14,7 +14,7 @@
                             <input type="text" class="form-control" id="emailInput" placeholder="Your email address" required>
                         </div>
                     </form>
-                    <a href="<?php echo $attributes["subscribe-link"]?>"><button type="submit" class="btn btn-primary">SUBSCRIBE</button></a>
+                    <a href="<?php echo $attributes["subscribe-link"]?>"><button type="submit" class="btn btn-primary"><?php echo $attributes["subscribe-text"]?></button></a>
                 </div>
             </div>
         </div>

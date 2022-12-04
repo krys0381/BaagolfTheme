@@ -43,7 +43,7 @@
                     <img src="<?php echo $courseCard["status-icon"]?>" width="26" height="26" alt="">
                     <p class="card-text"><?php echo $courseCard["status"]?></p>
                   </div>
-                  <a href="<?php echo $courseCard["button-link"]?>"><button type="button" class="btn btn-primary btn-lg col-lg-6 col-sm-12 col-12">LEARN MORE</button></a>
+                  <a href="<?php echo $courseCard["button-link"]?>"><button type="button" class="btn btn-primary btn-lg col-lg-6 col-sm-12 col-12"><?php echo $attributes["button-text"]?></button></a>
                 </div>
             </div>
             

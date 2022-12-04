@@ -11,7 +11,7 @@
       </div>
     </div>
   </div>
-  <div class="bg-image-container d-none d-xl-flex align-item-center justify-self-center">
+  <div class="bg-image-container d-none d-xl-flex d-lg-flex align-item-center justify-self-center">
     <img src="<?php echo $attributes["background-image"]?>" alt="">
   </div>
 </div>

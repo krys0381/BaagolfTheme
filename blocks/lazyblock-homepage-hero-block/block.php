@@ -8,7 +8,7 @@
         <p class="col-lg-8 my-3">
             <?php echo $attributes["subtitle"]?>
         </p>
-        <a href="<?php echo $attributes["button-link"]?>"><button type="button" class="btn btn-primary btn-lg 2 col-lg-2 col-md-12 col-sm-12 col-12">BOOK NOW</button></a>
+        <a href="<?php echo $attributes["button-link"]?>"><button type="button" class="btn btn-primary btn-lg 2 col-lg-2 col-md-12 col-sm-12 col-12"><?php echo $attributes["button-text"]?></button></a>
       </div>
     </div>
   </div>

@@ -12,7 +12,7 @@
             <?php echo $attributes["description"]?>
           </p>
           <div class="homepage-left-text-content-container col-lg-12 col-sm-12 col-12 d-flex justify-content-start align-item-center">
-            <a href="<?php echo $attributes["button-link"]?>"><button type="button" class="btn btn-primary btn-lg col-lg-4 col-sm-12 col-12">BOOK NOW</button></a>
+            <a href="<?php echo $attributes["button-link"]?>"><button type="button" class="btn btn-primary btn-lg col-lg-4 col-sm-12 col-12"><?php echo $attributes["button-text"]?></button></a>
           </div>
         </div>
       </div>

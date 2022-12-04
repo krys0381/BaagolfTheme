@@ -4,443 +4,6 @@ Theme Name: Blaagolf Theme
 Author: EASV Students
 Description: Used for the Blåvandshuk Golf website.
 */
-/* GREEN FEES - HERO */
-.green-hero-component {
-  position: relative;
-  min-height: 750px;
-  background-color: #F4F4F5;
-  padding-top: 125px;
-  padding-bottom: 25px;
-}
-.green-hero-component .green-hero-content-container {
-  z-index: 1;
-  padding-bottom: 50px;
-}
-.green-hero-component .green-hero-content-container h1 {
-  text-align: center;
-  font: normal normal 600 60px/104px Montserrat;
-  letter-spacing: 0px;
-  color: #F4F4F5;
-}
-.green-hero-component .green-hero-content-container p {
-  text-align: center;
-  font: normal normal normal 29px/45px Montserrat;
-  letter-spacing: 0px;
-  color: #F4F4F5;
-  width: 100%;
-}
-.green-hero-component .bg-image-container {
-  width: 100%;
-  position: absolute;
-}
-.green-hero-component .bg-image-container img {
-  width: 100%;
-  filter: brightness(60%);
-}
-/* GREEN FEES - PAY AND PLAY 9-HOLE PAR 3 AND PAR 4 COURSES */
-.payandplay9par3-component {
-  background-color: #F4F4F5;
-}
-.payandplay9par3-component .payandplay9par3-row .row {
-  padding-top: 80px;
-}
-.payandplay9par3-component .payandplay9par3-container {
-  width: 75%;
-}
-.payandplay9par3-component .payandplay9par3-container .payandplay9par3-header-text-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-.payandplay9par3-component .payandplay9par3-container .payandplay9par3-header-text-container h2 {
-  font: normal normal bold 32px/45px Montserrat;
-  letter-spacing: 0px;
-  color: #0C365E;
-  margin: 0;
-}
-.payandplay9par3-component .payandplay9par3-container .payandplay9par3-header-text-container p {
-  font: normal normal bold 16px/24px Montserrat;
-  letter-spacing: 0px;
-  color: #868E96;
-  margin: 0;
-}
-.payandplay9par3-component .payandplay9par3-container .payandplay9par3-text-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin-bottom: 40px;
-}
-.payandplay9par3-component .payandplay9par3-container .payandplay9par3-text-container p {
-  font: normal normal normal 16px/24px Montserrat;
-  letter-spacing: 0px;
-  color: #09131D;
-  margin: 20px 0;
-  width: 70%;
-}
-.payandplay9par3-component .cards-row .card {
-  background: #D6EEFD 0% 0% no-repeat padding-box;
-  border: 1px solid #0C365E;
-  border-radius: 0;
-}
-.payandplay9par3-component .cards-row .card-title {
-  text-align: center;
-  font: normal normal normal 24px/45px Montserrat;
-  letter-spacing: 0px;
-  color: #0C365E;
-  margin: 0;
-  padding: 15px 0;
-}
-.payandplay9par3-component .cards-row p {
-  text-align: center;
-  font: normal normal bold 16px/45px Montserrat;
-  letter-spacing: 0px;
-  color: #0C365E;
-}
-.payandplay9par3-component .cards-row .list-group {
-  border-top: none;
-}
-.payandplay9par3-component .cards-row .list-group :first-child {
-  font: normal normal 500 16px/24px Montserrat;
-}
-.payandplay9par3-component .cards-row .list-group-item {
-  text-align: center;
-  font: normal normal normal 15px/23px Montserrat;
-  letter-spacing: 0px;
-  color: #0C365E;
-  background: #D6EEFD 0% 0% no-repeat padding-box;
-}
-.payandplay9par3-component .cards-row .list-group-item .btn-primary {
-  padding: 8px 0;
-  width: 65%;
-  font: normal normal normal 16px/24px Montserrat;
-  border-radius: 0;
-  border-color: #0C365E;
-  color: #0C365E;
-  background: #D6EEFD 0% 0% no-repeat padding-box;
-}
-.payandplay9par3-component .cards-row .list-group-item .btn-primary:hover {
-  background: #0C365E 0% 0% no-repeat padding-box;
-  color: #D6EEFD;
-}
-/* GREEN FEES - PAY AND PLAY 9-HOLE PAR 4 COURSE */
-/* .payandplay9par4-component{
-    background-color: $primarybackgroundcolor;
-
-    .payandplay9par4-row {
-        .row{
-            padding-top: 80px;
-        }
-    }
-
-    .payandplay9par4-container {
-        width: 75%;
-    
-        .payandplay9par4-header-text-container {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-
-            h2 {
-                font: normal normal bold 32px/45px Montserrat;
-                letter-spacing: 0px;
-                color: $tertiarybackgroundcolor;
-                margin: 0;
-            }
-    
-            p {
-                font: normal normal bold 16px/24px Montserrat;
-                letter-spacing: 0px;
-                color: $greytextcolor;
-                margin: 0;
-            }
-        }
-        
-        .payandplay9par4-text-container {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            margin-bottom: 40px;
-    
-            p {
-                font: normal normal normal 16px/24px Montserrat;
-                letter-spacing: 0px;
-                color: $darktextcolor;
-                margin: 20px 0;
-                width: 80%;
-            }
-        }
-    }
-
-    .cards-row {
-        
-        .card {
-            background: $secondarybackgroundcolor 0% 0% no-repeat padding-box;
-            border: 1px solid $tertiarybackgroundcolor;
-            border-radius: 0;
-        }
-        
-        .card-title {
-            text-align: center;
-            font: normal normal normal 24px/45px Montserrat;
-            letter-spacing: 0px;
-            color: $tertiarybackgroundcolor;
-            margin: 0;
-            padding: 15px 0;
-        }
-
-        p {
-            text-align: center;
-            font: normal normal bold 16px/45px Montserrat;
-            letter-spacing: 0px;
-            line-height: 25px;
-            color: $tertiarybackgroundcolor;
-        }
-
-        .list-group {
-            border-top: none;
-
-            :first-child {
-                font: normal normal 500 16px/24px Montserrat;
-            }
-        }
-
-        .list-group-item {
-            text-align: center;
-            font: normal normal normal 15px/23px Montserrat;
-            letter-spacing: 0px;
-            color: $tertiarybackgroundcolor;
-            background: $secondarybackgroundcolor 0% 0% no-repeat padding-box;
-
-            .btn-primary{
-                padding: 8px 0;
-                width: 65%;
-                font: normal normal normal 16px/24px Montserrat;
-                border-radius: 0;
-                border-color: $tertiarybackgroundcolor;
-                color: $tertiarybackgroundcolor;
-                background: $secondarybackgroundcolor 0% 0% no-repeat padding-box;
-            }
-        }
-    }
-} */
-/* GREEN FEES - 18-HOLE COURSE */
-.hole18-component {
-  background-color: #F4F4F5;
-}
-.hole18-component .hole18-row .row {
-  padding-top: 80px;
-}
-.hole18-component .hole18-container {
-  width: 75%;
-}
-.hole18-component .hole18-container .hole18-header-text-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-.hole18-component .hole18-container .hole18-header-text-container h2 {
-  font: normal normal bold 32px/45px Montserrat;
-  letter-spacing: 0px;
-  color: #0C365E;
-  margin: 0;
-}
-.hole18-component .hole18-container .hole18-header-text-container p {
-  font: normal normal bold 16px/24px Montserrat;
-  letter-spacing: 0px;
-  color: #868E96;
-  margin: 0;
-}
-.hole18-component .hole18-container .hole18-text-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin-bottom: 40px;
-}
-.hole18-component .hole18-container .hole18-text-container p {
-  font: normal normal normal 16px/24px Montserrat;
-  letter-spacing: 0px;
-  color: #09131D;
-  margin: 20px 0;
-  width: 85%;
-}
-.hole18-component .cards-row .card {
-  background: #D6EEFD 0% 0% no-repeat padding-box;
-  border: 1px solid #0C365E;
-  border-radius: 0;
-}
-.hole18-component .cards-row .card-title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  font: normal normal normal 24px/45px Montserrat;
-  letter-spacing: 0px;
-  color: #0C365E;
-  margin: 0;
-  padding: 15px 0;
-}
-.hole18-component .cards-row p {
-  width: 75%;
-  text-align: center;
-  font: normal normal bold 16px/45px Montserrat;
-  letter-spacing: 0px;
-  line-height: 25px;
-  color: #0C365E;
-}
-.hole18-component .cards-row .list-group {
-  border-top: none;
-}
-.hole18-component .cards-row .list-group :first-child {
-  font: normal normal 500 16px/24px Montserrat;
-}
-.hole18-component .cards-row .list-group-item {
-  text-align: center;
-  font: normal normal normal 15px/23px Montserrat;
-  letter-spacing: 0px;
-  color: #0C365E;
-  background: #D6EEFD 0% 0% no-repeat padding-box;
-}
-.hole18-component .cards-row .list-group-item .btn-primary {
-  padding: 8px 0;
-  width: 65%;
-  font: normal normal normal 16px/24px Montserrat;
-  border-radius: 0;
-  border-color: #0C365E;
-  color: #0C365E;
-  background: #D6EEFD 0% 0% no-repeat padding-box;
-}
-.hole18-component .cards-row .list-group-item .btn-primary:hover {
-  background: #0C365E 0% 0% no-repeat padding-box;
-  color: #D6EEFD;
-}
-.checkout-component {
-  background-color: #F4F4F5;
-  padding-top: 75px !important;
-}
-.checkout-component .checkout-row .row {
-  padding: 90px 0 80px 0;
-}
-.checkout-component .checkout-container {
-  width: 75%;
-}
-.checkout-component .checkout-container h2 {
-  font: normal normal bold 32px/45px Montserrat;
-  letter-spacing: 0px;
-  color: #0C365E;
-}
-/* CONTACT - HERO */
-.contact-hero-component {
-  position: relative;
-  min-height: 750px;
-  background-color: #F4F4F5;
-  padding-top: 100px;
-  padding-bottom: 50px;
-}
-.contact-hero-component .contact-hero-content-container {
-  z-index: 1;
-  padding-bottom: 50px;
-  width: 100%;
-}
-.contact-hero-component .contact-hero-content-container h1 {
-  text-align: center;
-  font: normal normal 600 60px/104px Montserrat;
-  letter-spacing: 0px;
-  color: #F4F4F5;
-}
-.contact-hero-component .contact-hero-content-container p {
-  text-align: center;
-  font: normal normal normal 29px/45px Montserrat;
-  letter-spacing: 0px;
-  color: #F4F4F5;
-  width: 100%;
-}
-.contact-hero-component .bg-image-container {
-  width: 100%;
-  position: absolute;
-}
-.contact-hero-component .bg-image-container img {
-  width: 100%;
-  filter: brightness(60%);
-}
-/* CONTACT - CONTACT FORM & MAP */
-.contact-container {
-  background-color: #F4F4F5;
-}
-.contact-container .row {
-  padding: 80px 0;
-  border-bottom: 1px solid #09131D;
-}
-.contact-container .row .contact-image {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.contact-container .row .contact-form-container form {
-  width: 100%;
-}
-.contact-container .row .contact-form-container .form-control {
-  border-radius: 0;
-  height: 40px;
-  background-color: white;
-  border-color: #0C365E;
-  font: normal normal normal 16px/24px Montserrat;
-  letter-spacing: 0px;
-  color: #09131D;
-}
-.contact-container .row .contact-form-container #messageInput {
-  height: 128px;
-}
-.contact-container .row .contact-form-container .form-label {
-  font: normal normal normal 16px/24px Montserrat;
-  letter-spacing: 0px;
-  color: #09131D;
-}
-.contact-container .row .contact-form-container .contact-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.contact-container .row .contact-form-container .contact-container .contact-form-container {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  text-align: left;
-  margin: 20px 0;
-}
-.contact-container .row .contact-form-container a .btn-primary {
-  width: 35%;
-  padding: 10px 10px;
-  font: normal normal normal 16px/24px Montserrat;
-  border-radius: 0;
-  border-color: #0C365E;
-  color: #F4F4F5;
-  background: #0C365E 0% 0% no-repeat padding-box;
-}
-.contact-container .row .contact-form-container a .btn-primary:hover {
-  background: #D6EEFD 0% 0% no-repeat padding-box;
-  color: #0C365E;
-}
-.order-component {
-  background-color: #F4F4F5;
-}
-.order-component .order-row .row {
-  padding: 90px 0 80px 0;
-}
-.order-component .order-container {
-  width: 75%;
-}
-.order-component .order-container h2 {
-  font: normal normal bold 32px/45px Montserrat;
-  letter-spacing: 0px;
-  color: #0C365E;
-}
 /* HEADER */
 .header-row {
   padding: 0 !important;
@@ -870,41 +433,6 @@ Description: Used for the Blåvandshuk Golf website.
   margin: 20px 0;
   width: 100%;
 }
-/* HOMEPAGE - TESTIMONIALS */
-/* .testimonials-component{
-    background-color: $primarybackgroundcolor;
-
-    .testimonials-row {
-        .row{
-            padding-top: 80px;
-        }
-    }
-
-    .testimonials-container {
-        width: 75%;
-    
-        .testimonials-text-container {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-    
-            h2 {
-                font: normal normal bold 32px/45px Montserrat;
-                letter-spacing: 0px;
-                color: $tertiarybackgroundcolor;
-                margin: 0;
-            }
-    
-            p {
-                font: normal normal normal 16px/24px Montserrat;
-                letter-spacing: 0px;
-                color: $darktextcolor;
-                margin: 0;
-            }
-        }
-    }
-} */
 /* HOMEPAGE - NEWS & UPDATES */
 .newsupdates-component {
   background-color: #F4F4F5;
@@ -1120,99 +648,339 @@ Description: Used for the Blåvandshuk Golf website.
   font: normal normal normal 16px/24px Montserrat;
   letter-spacing: 0px;
   color: #09131D;
+  margin: 0;
 }
-@media (max-width: 1199.98px) {
-  .header .image-container {
-    width: 80%;
-  }
-  .newsupdates-component .newsupdates-list-container .newsupdates-list .newsupdates-list-description-container .newsupdates-card-btn {
-    width: 100%;
-  }
+/* GREEN FEES - HERO */
+.green-hero-component {
+  position: relative;
+  min-height: 750px;
+  background-color: #F4F4F5;
+  padding-top: 125px;
+  padding-bottom: 25px;
 }
-@media (max-width: 991.98px) {
-  .header .image-container {
-    width: 100%;
-  }
-  .hero-component{
-    background-color: #D6EEFD;
-  }
-  .hero-component .hero-content-container h1 {
-    color: #0C365E;
-  }
-  .hero-component .hero-content-container p {
-    color: #09131D;
-  }
-  .golfcourses-component .card-group .card {
-    margin: 0 0 50px 0;
-  }
-  .homepage-left-container .row {
-    flex-direction: column-reverse;
-  }
-  .homepage-left-container .row .homepage-left-text-container h2 {
-    margin: 20px 0 20px 0!important;
-  }  
-  .homepage-left-container .row .homepage-left-text-container a .btn-primary {
-    margin: 0 0 20px 0;
-  }
-  .homepage-right-container .row .homepage-right-text-container h2 {
-    margin: 20px 0 20px 0!important;
-  }  
-  .homepage-right-container .row .homepage-right-text-container a .btn-primary {
-    margin: 0 0 20px 0;
-  }
-  .trustedby-component .trustedby-container .trustedby-images-container {
-    flex-direction: column;
-  }   
-  .trustedby-component .trustedby-container .trustedby-images-container .trustedby-image {
-    margin: 15px 0 15px 0;
-  }
-  .newsupdates-component .newsupdates-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .newsupdates-component .newsupdates-btn a {
-    width: 40%;
-  }
-  .newsletter-component .newsletter-content-container .newsletter-form-container {
-    flex-direction: column;
-    align-items: center;
-  }
+.green-hero-component .green-hero-content-container {
+  z-index: 1;
+  padding-bottom: 50px;
 }
-@media (max-width: 767.98px) {
-  .header .image-container {
-    width: 125%;
-  }
-  .hero-component .hero-content-container h1 {
-    font-size: 50px;
-  }
-  .offer-component {
-    background-color: #0C365E;
-  }
-  .offer-component .row {
-    align-items: center!important;
-  }
-  .offer-component .offer-content-container {
-    width: 80%;
-  }
-  .newsletter-component {
-    background-color: #D6EEFD;
-  }
-  .newsletter-component .newsletter-content-container h2 {
-    color: #0C365E;
-  }
-  .newsletter-component .newsletter-content-container p {
-    color: #09131D;
-  }
+.green-hero-component .green-hero-content-container h1 {
+  text-align: center;
+  font: normal normal 600 60px/104px Montserrat;
+  letter-spacing: 0px;
+  color: #F4F4F5;
 }
-@media (max-width: 550px) {
-  .header .image-container {
-    width: 150%;
-  }
+.green-hero-component .green-hero-content-container p {
+  text-align: center;
+  font: normal normal normal 29px/45px Montserrat;
+  letter-spacing: 0px;
+  color: #F4F4F5;
+  width: 100%;
 }
-@media (max-width: 450px) {
-  .header .image-container {
-    width: 200%;
-  }
+.green-hero-component .bg-image-container {
+  width: 100%;
+  position: absolute;
 }
-
+.green-hero-component .bg-image-container img {
+  width: 100%;
+  filter: brightness(60%);
+}
+/* GREEN FEES - SMALL COURSE */
+.small-course-component {
+  background-color: #F4F4F5;
+}
+.small-course-component .small-course-row .row {
+  padding-top: 80px;
+}
+.small-course-component .small-course-container {
+  width: 75%;
+}
+.small-course-component .small-course-container .small-course-header-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.small-course-component .small-course-container .small-course-header-text-container h2 {
+  font: normal normal bold 32px/45px Montserrat;
+  letter-spacing: 0px;
+  color: #0C365E;
+  margin: 0;
+}
+.small-course-component .small-course-container .small-course-header-text-container p {
+  font: normal normal bold 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #868E96;
+  margin: 0;
+}
+.small-course-component .small-course-container .small-course-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.small-course-component .small-course-container .small-course-text-container p {
+  font: normal normal normal 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #09131D;
+  margin: 20px 0;
+  width: 70%;
+}
+.small-course-component .cards-row .card {
+  background: #D6EEFD 0% 0% no-repeat padding-box;
+  border: 1px solid #0C365E;
+  border-radius: 0;
+}
+.small-course-component .cards-row .card-title {
+  text-align: center;
+  font: normal normal normal 24px/45px Montserrat;
+  letter-spacing: 0px;
+  color: #0C365E;
+  margin: 0;
+  padding: 15px 0;
+}
+.small-course-component .cards-row p {
+  text-align: center;
+  font: normal normal bold 16px/45px Montserrat;
+  letter-spacing: 0px;
+  color: #0C365E;
+}
+.small-course-component .cards-row .list-group {
+  border-top: none;
+}
+.small-course-component .cards-row .list-group :first-child {
+  font: normal normal 500 16px/24px Montserrat;
+}
+.small-course-component .cards-row .list-group-item {
+  text-align: center;
+  font: normal normal normal 15px/23px Montserrat;
+  letter-spacing: 0px;
+  color: #0C365E;
+  background: #D6EEFD 0% 0% no-repeat padding-box;
+}
+.small-course-component .cards-row .list-group-item .btn-primary {
+  padding: 8px 0;
+  width: 65%;
+  font: normal normal normal 16px/24px Montserrat;
+  border-radius: 0;
+  border-color: #0C365E;
+  color: #0C365E;
+  background: #D6EEFD 0% 0% no-repeat padding-box;
+}
+.small-course-component .cards-row .list-group-item .btn-primary:hover {
+  background: #0C365E 0% 0% no-repeat padding-box;
+  color: #D6EEFD;
+}
+/* GREEN FEES - LARGE COURSE */
+.large-course-component {
+  background-color: #F4F4F5;
+}
+.large-course-component .large-course-row .row {
+  padding-top: 80px;
+}
+.large-course-component .large-course-container {
+  width: 75%;
+}
+.large-course-component .large-course-container .large-course-header-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.large-course-component .large-course-container .large-course-header-text-container h2 {
+  font: normal normal bold 32px/45px Montserrat;
+  letter-spacing: 0px;
+  color: #0C365E;
+  margin: 0;
+}
+.large-course-component .large-course-container .large-course-header-text-container p {
+  font: normal normal bold 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #868E96;
+  margin: 0;
+}
+.large-course-component .large-course-container .large-course-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.large-course-component .large-course-container .large-course-text-container p {
+  font: normal normal normal 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #09131D;
+  margin: 20px 0;
+  width: 85%;
+}
+.large-course-component .cards-row .card {
+  background: #D6EEFD 0% 0% no-repeat padding-box;
+  border: 1px solid #0C365E;
+  border-radius: 0;
+}
+.large-course-component .cards-row .card-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font: normal normal normal 24px/45px Montserrat;
+  letter-spacing: 0px;
+  color: #0C365E;
+  margin: 0;
+  padding: 15px 0;
+}
+.large-course-component .cards-row p {
+  width: 75%;
+  text-align: center;
+  font: normal normal bold 16px/45px Montserrat;
+  letter-spacing: 0px;
+  line-height: 25px;
+  color: #0C365E;
+}
+.large-course-component .cards-row .list-group {
+  border-top: none;
+}
+.large-course-component .cards-row .list-group :first-child {
+  font: normal normal 500 16px/24px Montserrat;
+}
+.large-course-component .cards-row .list-group-item {
+  text-align: center;
+  font: normal normal normal 15px/23px Montserrat;
+  letter-spacing: 0px;
+  color: #0C365E;
+  background: #D6EEFD 0% 0% no-repeat padding-box;
+}
+.large-course-component .cards-row .list-group-item .btn-primary {
+  padding: 8px 0;
+  width: 65%;
+  font: normal normal normal 16px/24px Montserrat;
+  border-radius: 0;
+  border-color: #0C365E;
+  color: #0C365E;
+  background: #D6EEFD 0% 0% no-repeat padding-box;
+}
+.large-course-component .cards-row .list-group-item .btn-primary:hover {
+  background: #0C365E 0% 0% no-repeat padding-box;
+  color: #D6EEFD;
+}
+/* CONTACT - HERO */
+.contact-hero-component {
+  position: relative;
+  min-height: 750px;
+  background-color: #F4F4F5;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.contact-hero-component .contact-hero-content-container {
+  z-index: 1;
+  padding-bottom: 50px;
+  width: 100%;
+}
+.contact-hero-component .contact-hero-content-container h1 {
+  text-align: center;
+  font: normal normal 600 60px/104px Montserrat;
+  letter-spacing: 0px;
+  color: #F4F4F5;
+}
+.contact-hero-component .contact-hero-content-container p {
+  text-align: center;
+  font: normal normal normal 29px/45px Montserrat;
+  letter-spacing: 0px;
+  color: #F4F4F5;
+  width: 100%;
+}
+.contact-hero-component .bg-image-container {
+  width: 100%;
+  position: absolute;
+}
+.contact-hero-component .bg-image-container img {
+  width: 100%;
+  filter: brightness(60%);
+}
+/* CONTACT - CONTACT FORM & MAP */
+.contact-container {
+  background-color: #F4F4F5;
+}
+.contact-container .row {
+  padding: 80px 0;
+  border-bottom: 1px solid #09131D;
+}
+.contact-container .row .contact-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contact-container .row .contact-form-container form {
+  width: 100%;
+}
+.contact-container .row .contact-form-container .form-control {
+  border-radius: 0;
+  height: 40px;
+  background-color: white;
+  border-color: #0C365E;
+  font: normal normal normal 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #09131D;
+}
+.contact-container .row .contact-form-container #messageInput {
+  height: 128px;
+}
+.contact-container .row .contact-form-container .form-label {
+  font: normal normal normal 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #09131D;
+}
+.contact-container .row .contact-form-container .contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-container .row .contact-form-container .contact-container .contact-form-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin: 20px 0;
+}
+.contact-container .row .contact-form-container a .btn-primary {
+  width: 35%;
+  padding: 10px 10px;
+  font: normal normal normal 16px/24px Montserrat;
+  border-radius: 0;
+  border-color: #0C365E;
+  color: #F4F4F5;
+  background: #0C365E 0% 0% no-repeat padding-box;
+}
+.contact-container .row .contact-form-container a .btn-primary:hover {
+  background: #D6EEFD 0% 0% no-repeat padding-box;
+  color: #0C365E;
+}
+.checkout-component {
+  background-color: #F4F4F5;
+  padding-top: 75px !important;
+}
+.checkout-component .checkout-row .row {
+  padding: 90px 0 80px 0;
+}
+.checkout-component .checkout-container {
+  width: 75%;
+}
+.checkout-component .checkout-container h2 {
+  font: normal normal bold 32px/45px Montserrat;
+  letter-spacing: 0px;
+  color: #0C365E;
+}
+.order-component {
+  background-color: #F4F4F5;
+}
+.order-component .order-row .row {
+  padding: 90px 0 80px 0;
+}
+.order-component .order-container {
+  width: 75%;
+}
+.order-component .order-container h2 {
+  font: normal normal bold 32px/45px Montserrat;
+  letter-spacing: 0px;
+  color: #0C365E;
+}
