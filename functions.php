@@ -12,6 +12,7 @@ add_action("wp_enqueue_scripts", "load_resources");
 function blaagolf_register_menu_locations() {
     register_nav_menu("heared-nav-menu-location", "Header Navigation Menu Location");
     register_nav_menu("footer-nav-menu-location", "Footer Navigation Menu Location");
+    register_nav_menu("mobile-nav-menu-location", "Mobile Navigation Menu Location");
 }
 add_action("after_setup_theme", "blaagolf_register_menu_locations");
 

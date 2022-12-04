@@ -1,68 +1,95 @@
-
 @media (max-width: 1199.98px) {
-   .newsupdates-component .newsupdates-list-container .newsupdates-list .newsupdates-list-description-container .newsupdates-card-btn {
-     width: 100%;
-   }
- }
- @media (max-width: 991.98px) {
-   .hero-component{
-     background-color: #D6EEFD;
-   }
-   .hero-component .hero-content-container h1 {
-     color: #0C365E;
-   }
-   .hero-component .hero-content-container p {
-     color: #09131D;
-   }
-   .golfcourses-component .card-group .card {
-     margin: 0 0 50px 0;
-   }
-   .homepage-container .row .homepage-text-container h2 {
-     margin: 20px 0 20px 0!important;
-   }  
-   .homepage-container .row .homepage-text-container a .btn-primary {
-     margin: 0 0 20px 0;
-   }
-   .trustedby-component .trustedby-container .trustedby-images-container {
-     flex-direction: column;
-   }   
-   .trustedby-component .trustedby-container .trustedby-images-container .trustedby-image {
-     margin: 15px 0 15px 0;
-   }
-   .newsupdates-component .newsupdates-btn {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-   }
-   .newsupdates-component .newsupdates-btn a {
-     width: 40%;
-   }
-   .newsletter-component .newsletter-content-container .newsletter-form-container {
-     flex-direction: column;
-     align-items: center;
-   }
- }
- @media (max-width: 767.98px) {
-   .hero-component .hero-content-container h1 {
-     font-size: 50px;
-   }
-   .offer-component {
-     background-color: #0C365E;
-   }
-   .offer-component .row {
-     align-items: center!important;
-   }
-   .offer-component .offer-content-container {
-     width: 80%;
-   }
-   .newsletter-component {
-     background-color: #D6EEFD;
-   }
-   .newsletter-component .newsletter-content-container h2 {
-     color: #0C365E;
-   }
-   .newsletter-component .newsletter-content-container p {
-     color: #09131D;
-   }
- }
+  .header .image-container {
+    width: 80%;
+  }
+  .newsupdates-component .newsupdates-list-container .newsupdates-list .newsupdates-list-description-container .newsupdates-card-btn {
+    width: 100%;
+  }
+}
+@media (max-width: 991.98px) {
+  .header .image-container {
+    width: 100%;
+  }
+  .hero-component{
+    background-color: #D6EEFD;
+  }
+  .hero-component .hero-content-container h1 {
+    color: #0C365E;
+  }
+  .hero-component .hero-content-container p {
+    color: #09131D;
+  }
+  .golfcourses-component .card-group .card {
+    margin: 0 0 50px 0;
+  }
+  .homepage-left-container .row {
+    flex-direction: column-reverse;
+  }
+  .homepage-left-container .row .homepage-left-text-container h2 {
+    margin: 20px 0 20px 0!important;
+  }  
+  .homepage-left-container .row .homepage-left-text-container a .btn-primary {
+    margin: 0 0 20px 0;
+  }
+  .homepage-right-container .row .homepage-right-text-container h2 {
+    margin: 20px 0 20px 0!important;
+  }  
+  .homepage-right-container .row .homepage-right-text-container a .btn-primary {
+    margin: 0 0 20px 0;
+  }
+  .trustedby-component .trustedby-container .trustedby-images-container {
+    flex-direction: column;
+  }   
+  .trustedby-component .trustedby-container .trustedby-images-container .trustedby-image {
+    margin: 15px 0 15px 0;
+  }
+  .newsupdates-component .newsupdates-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .newsupdates-component .newsupdates-btn a {
+    width: 40%;
+  }
+  .newsletter-component .newsletter-content-container .newsletter-form-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 767.98px) {
+  .header .image-container {
+    width: 125%;
+  }
+  .hero-component .hero-content-container h1 {
+    font-size: 50px;
+  }
+  .offer-component {
+    background-color: #0C365E;
+  }
+  .offer-component .row {
+    align-items: center!important;
+  }
+  .offer-component .offer-content-container {
+    width: 80%;
+  }
+  .newsletter-component {
+    background-color: #D6EEFD;
+  }
+  .newsletter-component .newsletter-content-container h2 {
+    color: #0C365E;
+  }
+  .newsletter-component .newsletter-content-container p {
+    color: #09131D;
+  }
+}
+@media (max-width: 550px) {
+  .header .image-container {
+    width: 150%;
+  }
+}
+@media (max-width: 450px) {
+  .header .image-container {
+    width: 200%;
+  }
+}
 

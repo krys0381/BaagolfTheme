@@ -498,7 +498,59 @@ Description: Used for the Blåvandshuk Golf website.
 }
 .header-navigation a .btn-primary:hover {
   background: #0C365E 0% 0% no-repeat padding-box;
-  color: #D6EEFD;
+  color: #F4F4F5;
+}
+/* MOBILE HEADER */
+.mobile-navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+.mobile-navigation .hamburger div {
+  width: 30px;
+  height: 3px;
+  background: #0C365E;
+  margin: 5px;
+}
+.mobile-navigation h4 {
+  font: normal normal bold 25px Montserrat;
+  letter-spacing: 0px;
+  color: #0C365E;
+}
+.mobile-navigation ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+}
+.mobile-navigation ul li {
+  margin: 15px 0;
+  padding: 0;
+}
+.mobile-navigation ul li a {
+  width: 100%;
+  height: 100%;
+  font: normal normal normal 20px Montserrat;
+  letter-spacing: 0px;
+  color: #0C365E;
+  text-decoration: none;
+}
+.mobile-navigation ul li a:hover {
+  text-decoration: underline;
+}
+.mobile-navigation a .btn-primary {
+  width: 100%;
+  padding: 10px 10px;
+  font: normal normal normal 16px/24px Montserrat;
+  border-radius: 0;
+  border-color: #0C365E;
+  color: #0C365E;
+  background: #D6EEFD 0% 0% no-repeat padding-box;
+}
+.mobile-navigation a .btn-primary:hover {
+  background: #0C365E 0% 0% no-repeat padding-box;
+  color: #F4F4F5;
 }
 /* HOMEPAGE - HERO */
 .hero-component {
@@ -714,36 +766,36 @@ Description: Used for the Blåvandshuk Golf website.
   background: #0C365E 0% 0% no-repeat padding-box;
   color: #D6EEFD;
 }
-/* HOMEPAGE - POST LEFT & POST RIGHT */
-.homepage-container {
+/* HOMEPAGE - POST RIGHT */
+.homepage-right-container {
   background-color: #F4F4F5;
 }
-.homepage-container .row {
+.homepage-right-container .row {
   padding: 80px 0;
 }
-.homepage-container .row .homepage-image {
+.homepage-right-container .row .homepage-right-image {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
-.homepage-container .row .homepage-image img {
+.homepage-right-container .row .homepage-right-image img {
   width: 100%;
 }
-.homepage-container .row .homepage-text-container h2 {
+.homepage-right-container .row .homepage-right-text-container h2 {
   text-align: left;
   font: normal normal bold 32px/45px Montserrat;
   letter-spacing: 0px;
   color: #0C365E;
   margin: 0 0 20px 0 !important;
 }
-.homepage-container .row .homepage-text-container .homepage-text-p {
+.homepage-right-container .row .homepage-right-text-container .homepage-right-text-p {
   text-align: left;
   font: normal normal normal 16px/24px Montserrat;
   letter-spacing: 0px;
   color: #09131D;
   margin: 0 0 20px 0 !important;
 }
-.homepage-container .row .homepage-text-container a .btn-primary {
+.homepage-right-container .row .homepage-right-text-container a .btn-primary {
   width: 100%;
   padding: 10px 10px;
   font: normal normal normal 16px/24px Montserrat;
@@ -752,7 +804,49 @@ Description: Used for the Blåvandshuk Golf website.
   color: #0C365E;
   background: #F4F4F5 0% 0% no-repeat padding-box;
 }
-.homepage-container .row .homepage-text-container a .btn-primary:hover {
+.homepage-right-container .row .homepage-right-text-container a .btn-primary:hover {
+  background: #0C365E 0% 0% no-repeat padding-box;
+  color: #F4F4F5;
+}
+/* HOMEPAGE - POST LEFT */
+.homepage-left-container {
+  background-color: #F4F4F5;
+}
+.homepage-left-container .row {
+  padding: 80px 0;
+}
+.homepage-left-container .row .homepage-left-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.homepage-left-container .row .homepage-left-image img {
+  width: 100%;
+}
+.homepage-left-container .row .homepage-left-text-container h2 {
+  text-align: left;
+  font: normal normal bold 32px/45px Montserrat;
+  letter-spacing: 0px;
+  color: #0C365E;
+  margin: 0 0 20px 0 !important;
+}
+.homepage-left-container .row .homepage-left-text-container .homepage-left-text-p {
+  text-align: left;
+  font: normal normal normal 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #09131D;
+  margin: 0 0 20px 0 !important;
+}
+.homepage-left-container .row .homepage-left-text-container a .btn-primary {
+  width: 100%;
+  padding: 10px 10px;
+  font: normal normal normal 16px/24px Montserrat;
+  border-radius: 0;
+  border-color: #0C365E;
+  color: #0C365E;
+  background: #F4F4F5 0% 0% no-repeat padding-box;
+}
+.homepage-left-container .row .homepage-left-text-container a .btn-primary:hover {
   background: #0C365E 0% 0% no-repeat padding-box;
   color: #F4F4F5;
 }
@@ -1028,11 +1122,17 @@ Description: Used for the Blåvandshuk Golf website.
   color: #09131D;
 }
 @media (max-width: 1199.98px) {
+  .header .image-container {
+    width: 80%;
+  }
   .newsupdates-component .newsupdates-list-container .newsupdates-list .newsupdates-list-description-container .newsupdates-card-btn {
     width: 100%;
   }
 }
 @media (max-width: 991.98px) {
+  .header .image-container {
+    width: 100%;
+  }
   .hero-component{
     background-color: #D6EEFD;
   }
@@ -1045,10 +1145,19 @@ Description: Used for the Blåvandshuk Golf website.
   .golfcourses-component .card-group .card {
     margin: 0 0 50px 0;
   }
-  .homepage-container .row .homepage-text-container h2 {
+  .homepage-left-container .row {
+    flex-direction: column-reverse;
+  }
+  .homepage-left-container .row .homepage-left-text-container h2 {
     margin: 20px 0 20px 0!important;
   }  
-  .homepage-container .row .homepage-text-container a .btn-primary {
+  .homepage-left-container .row .homepage-left-text-container a .btn-primary {
+    margin: 0 0 20px 0;
+  }
+  .homepage-right-container .row .homepage-right-text-container h2 {
+    margin: 20px 0 20px 0!important;
+  }  
+  .homepage-right-container .row .homepage-right-text-container a .btn-primary {
     margin: 0 0 20px 0;
   }
   .trustedby-component .trustedby-container .trustedby-images-container {
@@ -1071,6 +1180,9 @@ Description: Used for the Blåvandshuk Golf website.
   }
 }
 @media (max-width: 767.98px) {
+  .header .image-container {
+    width: 125%;
+  }
   .hero-component .hero-content-container h1 {
     font-size: 50px;
   }
@@ -1093,3 +1205,14 @@ Description: Used for the Blåvandshuk Golf website.
     color: #09131D;
   }
 }
+@media (max-width: 550px) {
+  .header .image-container {
+    width: 150%;
+  }
+}
+@media (max-width: 450px) {
+  .header .image-container {
+    width: 200%;
+  }
+}
+

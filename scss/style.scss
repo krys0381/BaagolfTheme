@@ -77,7 +77,71 @@ Description: Used for the Blåvandshuk Golf website.
 
             &:hover {
                 background: $tertiarybackgroundcolor 0% 0% no-repeat padding-box;
-                color: $secondarybackgroundcolor;
+                color: $primarybackgroundcolor;
+            }
+        }
+    }
+}
+
+/* MOBILE HEADER */
+
+.mobile-navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+
+    .hamburger div{
+        width: 30px;
+        height: 3px;
+        background: $tertiarybackgroundcolor;
+        margin: 5px;
+    }
+
+    h4 {
+        font: normal normal bold 25px Montserrat;
+        letter-spacing: 0px;
+        color: $tertiarybackgroundcolor;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        padding: 0;
+
+        li {
+            margin: 15px 0;
+            padding: 0;
+
+            a {
+                width: 100%;
+                height: 100%;
+                font: normal normal normal 20px Montserrat;
+                letter-spacing: 0px;
+                color: $tertiarybackgroundcolor;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    a {
+        .btn-primary{
+            width: 100%;
+            padding: 10px 10px;
+            font: normal normal normal 16px/24px Montserrat;
+            border-radius: 0;
+            border-color: $tertiarybackgroundcolor;
+            color: $tertiarybackgroundcolor;
+            background: $secondarybackgroundcolor 0% 0% no-repeat padding-box;
+
+            &:hover {
+                background: $tertiarybackgroundcolor 0% 0% no-repeat padding-box;
+                color: $primarybackgroundcolor;
             }
         }
     }
@@ -361,15 +425,15 @@ Description: Used for the Blåvandshuk Golf website.
     }
 }
 
-/* HOMEPAGE - POST LEFT & POST RIGHT */
+/* HOMEPAGE - POST RIGHT */
 
-.homepage-container {
+.homepage-right-container {
     background-color: $primarybackgroundcolor;
 
     .row{
         padding: 80px 0;
           
-        .homepage-image {
+        .homepage-right-image {
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -379,7 +443,7 @@ Description: Used for the Blåvandshuk Golf website.
             }
         }
 
-        .homepage-text-container {
+        .homepage-right-text-container {
             
             h2 {
                 text-align: left;
@@ -389,7 +453,64 @@ Description: Used for the Blåvandshuk Golf website.
                 margin: 0 0 20px 0!important;
             }
 
-            .homepage-text-p{
+            .homepage-right-text-p{
+                text-align: left;
+                font: normal normal normal 16px/24px Montserrat;
+                letter-spacing: 0px;
+                color: $darktextcolor;
+                margin: 0 0 20px 0!important;
+            }
+
+            a {
+                .btn-primary{
+                    width: 100%;
+                    padding: 10px 10px;
+                    font: normal normal normal 16px/24px Montserrat;
+                    border-radius: 0;
+                    border-color: $tertiarybackgroundcolor;
+                    color: $tertiarybackgroundcolor;
+                    background: $primarybackgroundcolor 0% 0% no-repeat padding-box;
+
+                    &:hover {
+                        background: $tertiarybackgroundcolor 0% 0% no-repeat padding-box;
+                        color: $primarybackgroundcolor;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+/* HOMEPAGE - POST LEFT */
+
+.homepage-left-container {
+    background-color: $primarybackgroundcolor;
+
+    .row{
+        padding: 80px 0;
+          
+        .homepage-left-image {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .homepage-left-text-container {
+            
+            h2 {
+                text-align: left;
+                font: normal normal bold 32px/45px Montserrat;
+                letter-spacing: 0px;
+                color: $tertiarybackgroundcolor;
+                margin: 0 0 20px 0!important;
+            }
+
+            .homepage-left-text-p{
                 text-align: left;
                 font: normal normal normal 16px/24px Montserrat;
                 letter-spacing: 0px;
