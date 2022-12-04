@@ -39,7 +39,7 @@
                             <li class="list-group-item"><?php echo $ticket["ticket-field-3"]?></li>
                             <li class="list-group-item"><?php echo $ticket["ticket-field-4"]?></li>
                             <li class="list-group-item">
-                              <a href="<?php echo $ticket["ticket-button-link"]?>"><button type="button" class=" btn btn-primary btn-lg col-lg-12 col-sm-12 col-12"><?php echo $attributes["ticket-button-text"]?></button></a>
+                              <a href="<?php echo $ticket["ticket-button-link"]?>"><button type="button" class=" btn btn-primary btn-lg col-lg-12 col-sm-12 col-12"><?php echo $ticket["ticket-button-text"]?></button></a>
                             </li>
                         </ul>
                     </div>
