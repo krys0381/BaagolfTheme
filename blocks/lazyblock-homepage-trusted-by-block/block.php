@@ -10,22 +10,22 @@
           </div>
           <div class="trustedby-images-container d-flex">
             <div class="trustedby-image col-lg-2 col-sm-12 col-12 d-flex justify-content-center">
-              <img src="<?php echo $attributes["company-logo-1"]?>" width="120" height="120" alt="">
+              <img src="<?php echo $attributes["company-logo-1"]?>" width="120" height="120" alt="Company logo">
             </div>
             <div class="trustedby-image col-lg-2 col-sm-12 col-12 d-flex justify-content-center">
-              <img src="<?php echo $attributes["company-logo-2"]?>" width="120" height="120" alt="">
+              <img src="<?php echo $attributes["company-logo-2"]?>" width="120" height="120" alt="Company logo">
             </div>
             <div class="trustedby-image col-lg-2 col-sm-12 col-12 d-flex justify-content-center">
-              <img src="<?php echo $attributes["company-logo-3"]?>" width="120" height="120" alt="">
+              <img src="<?php echo $attributes["company-logo-3"]?>" width="120" height="120" alt="Company logo">
             </div>
             <div class="trustedby-image col-lg-2 col-sm-12 col-12 d-flex justify-content-center">
-              <img src="<?php echo $attributes["company-logo-4"]?>" width="120" height="120" alt="">
+              <img src="<?php echo $attributes["company-logo-4"]?>" width="120" height="120" alt="Novasol logo">
             </div>
             <div class="trustedby-image col-lg-2 col-sm-12 col-12 d-flex justify-content-center">
-              <img src="<?php echo $attributes["company-logo-5"]?>" width="120" height="120" alt="">
+              <img src="<?php echo $attributes["company-logo-5"]?>" width="120" height="120" alt="Nybolig logo">
             </div>
             <div class="trustedby-image col-lg-2 col-sm-12 col-12 d-flex justify-content-center">
-              <img src="<?php echo $attributes["company-logo-6"]?>" width="120" height="120" alt="">
+              <img src="<?php echo $attributes["company-logo-6"]?>" width="120" height="120" alt="Company logo">
             </div>
           </div>
         </div>

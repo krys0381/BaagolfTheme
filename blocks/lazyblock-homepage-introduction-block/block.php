@@ -29,25 +29,25 @@
             <div class="col-lg-12 col-sm-12 col-12 d-flex flex-wrap">
 
               <div class="ourservices-services d-flex align-items-center flex-column col-lg-6 col-sm-12 col-12 pb-5 px-2">
-                <img src="<?php echo $attributes["services-icon-1"]?>" width="72" height="72" alt="">
+                <img src="<?php echo $attributes["services-icon-1"]?>" width="72" height="72" alt="Golf icon">
                 <h4><?php echo $attributes["services-title-1"]?></h4>
                 <p><?php echo $attributes["services-description-1"]?></p> 
               </div>
 
               <div class="ourservices-services  d-flex align-items-center flex-column col-lg-6 col-sm-12 col-12 pb-5 px-2">
-                <img src="<?php echo $attributes["services-icon-2"]?>" width="72" height="72" alt="">
+                <img src="<?php echo $attributes["services-icon-2"]?>" width="72" height="72" alt="Football golf icon">
                 <h4><?php echo $attributes["services-title-2"]?></h4>
                 <p><?php echo $attributes["services-description-2"]?></p>
             </div>
 
               <div class="ourservices-services  d-flex align-items-center flex-column col-lg-6 col-sm-12 col-12 pb-5 px-2">
-                <img src="<?php echo $attributes["services-icon-3"]?>" width="72" height="72" alt="">
+                <img src="<?php echo $attributes["services-icon-3"]?>" width="72" height="72" alt="Accommodation icon">
                 <h4><?php echo $attributes["services-title-3"]?></h4>
                 <p><?php echo $attributes["services-description-3"]?></p>
             </div>
 
               <div class="ourservices-services  d-flex align-items-center flex-column col-lg-6 col-sm-12 col-12 pb-5 px-2">
-                <img src="<?php echo $attributes["services-icon-4"]?>" width="72" height="72" alt="">
+                <img src="<?php echo $attributes["services-icon-4"]?>" width="72" height="72" alt="Restaurant icon">
                 <h4><?php echo $attributes["services-title-4"]?></h4>
                 <p><?php echo $attributes["services-description-4"]?></p>
             </div>

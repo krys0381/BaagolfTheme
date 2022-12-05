@@ -12,6 +12,6 @@
     </div>
   </div>
   <div class="bg-image-container d-none d-xl-flex d-lg-flex align-item-center justify-self-center">
-    <img src="<?php echo $attributes["background-image"]?>" alt="">
+    <img src="<?php echo $attributes["background-image"]?>" alt="Blaavandshuk Golf Center main building">
   </div>
 </div>

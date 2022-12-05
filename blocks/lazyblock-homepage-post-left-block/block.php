@@ -17,7 +17,7 @@
         </div>
       </div>
       <div class="homepage-left-image col-lg-6 col-sm-12 col-12 d-flex align-items-center">
-        <img src="<?php echo $attributes["image"]?>" alt="">
+        <img src="<?php echo $attributes["image"]?>" alt="Post picture">
       </div>
     </div>
   </div>

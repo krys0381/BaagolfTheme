@@ -25,7 +25,7 @@
             <div class="newsupdates-list-container d-flex flex-column align-items-center">
               <div class="newsupdates-list col-lg-10 col-sm-12 col-12 d-flex flex-wrap">
                 <div class="newsupdates-list-img col-lg-7 col-sm-12 col-12">
-                  <img src="<?php echo $newsCard["card-image"]?>" alt="">
+                  <img src="<?php echo $newsCard["card-image"]?>" alt="News and Uptades picture">
                 </div>
                 <div class="newsupdates-list-description-container col-lg-5 col-sm-12 col-12 d-flex flex-column align-items-start justify-content-center p-5">
                   <h3><?php echo $newsCard["card-title"]?></h3>       

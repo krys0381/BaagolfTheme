@@ -20,6 +20,6 @@
         </div>
     </div>
     <div class="bg-image-container d-none d-xl-flex d-lg-flex d-md-flex align-item-center justify-self-center">
-      <img src="<?php echo $attributes["background-image"]?>" alt="">
+      <img src="<?php echo $attributes["background-image"]?>" alt="Golf club and ball on green field">
     </div>
 </div>

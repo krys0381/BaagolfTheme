@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row d-flex justify-content-between">
       <div class="homepage-right-image col-lg-6 col-sm-12 col-12 d-flex align-items-center">
-        <img src="<?php echo $attributes["image"]?>" alt="">
+        <img src="<?php echo $attributes["image"]?>" alt="Post picture">
       </div>
       <div class="homepage-right-text-container d-flex justify-content-center flex-column col-lg-5 col-sm-12 col-12">
         <div class="homepage-right-text-content-container">

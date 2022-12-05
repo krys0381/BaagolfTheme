@@ -984,3 +984,188 @@ Description: Used for the Blåvandshuk Golf website.
   letter-spacing: 0px;
   color: #0C365E;
 }
+@media (max-width: 1199.98px) {
+  .header .image-container {
+    width: 80%;
+  }
+  .newsupdates-component .newsupdates-list-container .newsupdates-list .newsupdates-list-description-container .newsupdates-card-btn {
+    width: 100%;
+  }
+  .footer-row .footer-menu-row {
+    justify-content: space-between!important;
+  }
+  .footer .image-container {
+    width: 65%;
+  }
+}
+@media (max-width: 991.98px) {
+  .header .image-container {
+    width: 100%;
+  }
+  .hero-component{
+    background-color: #D6EEFD;
+  }
+  .hero-component .hero-content-container h1 {
+    color: #0C365E;
+  }
+  .hero-component .hero-content-container p {
+    color: #09131D;
+  }
+  .golfcourses-component .card-group .card {
+    margin: 0 0 50px 0;
+  }
+  .homepage-left-container .row {
+    flex-direction: column-reverse;
+  }
+  .homepage-left-container .row .homepage-left-text-container h2 {
+    margin: 20px 0 20px 0!important;
+  }  
+  .homepage-left-container .row .homepage-left-text-container a .btn-primary {
+    margin: 0 0 20px 0;
+  }
+  .homepage-right-container .row .homepage-right-text-container h2 {
+    margin: 20px 0 20px 0!important;
+  }  
+  .homepage-right-container .row .homepage-right-text-container a .btn-primary {
+    margin: 0 0 20px 0;
+  }
+  .trustedby-component .trustedby-container .trustedby-images-container {
+    flex-direction: column;
+  }   
+  .trustedby-component .trustedby-container .trustedby-images-container .trustedby-image {
+    margin: 15px 0 15px 0;
+  }
+  .newsupdates-component .newsupdates-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .newsupdates-component .newsupdates-btn a {
+    width: 40%;
+  }
+  .newsletter-component .newsletter-content-container .newsletter-form-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .green-hero-component{
+    background-color: #D6EEFD;
+  }
+  .green-hero-component .green-hero-content-container h1 {
+    color: #0C365E;
+  }
+  .green-hero-component .green-hero-content-container p {
+    color: #09131D;
+  }
+  .contact-hero-component{
+    background-color: #D6EEFD;
+  }
+  .contact-hero-component .contact-hero-content-container h1 {
+    color: #0C365E;
+  }
+  .contact-hero-component .contact-hero-content-container p {
+    color: #09131D;
+  }
+  .contact-container .row .contact-form-container a .btn-primary {
+    margin-bottom: 25px;
+  }
+  .footer .image-container {
+    width: 80%;
+  }
+}
+@media (max-width: 767.98px) {
+  .header .image-container {
+    width: 125%;
+  }
+  .hero-component .hero-content-container h1 {
+    font-size: 40px;
+  }
+  .offer-component {
+    background-color: #0C365E;
+  }
+  .offer-component .row {
+    align-items: center!important;
+  }
+  .offer-component .offer-content-container {
+    width: 80%;
+  }
+  .newsletter-component {
+    background-color: #D6EEFD;
+  }
+  .newsletter-component .newsletter-content-container h2 {
+    color: #0C365E;
+  }
+  .newsletter-component .newsletter-content-container p {
+    color: #09131D;
+  }
+  .green-hero-component .green-hero-content-container h1 {
+    font-size: 50px;
+  }
+  .contact-hero-component .contact-hero-content-container h1 {
+    font-size: 50px;
+  }
+  .footer-row .footer-menu-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .image-container {
+    width: 30%;
+  }
+  .footer-row .footer-end-container {
+    flex-direction: column;
+  }
+  .footer-row .footer-end-container .soc-links-container {
+    justify-content: center!important;
+  }
+  .footer-row .footer-end-container .rights-container {
+    width: 100%;
+    margin-bottom: 30px;
+    flex-direction: column;
+  }
+  .footer-row .footer-end-container .rights-container p {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 550px) {
+  .header .image-container {
+    width: 150%;
+  }
+  .green-hero-component .green-hero-content-container p {
+    font-size: 20px;
+  }
+  .small-course-component .small-course-container .small-course-header-text-container h2 {
+    font-size: 25px;
+  }
+  .large-course-component .large-course-container .large-course-header-text-container h2 {
+    font-size: 25px!important;
+  }
+  .small-course-component .small-course-container .small-course-text-container p {
+    text-align: left;
+    width: 100%;
+  }
+  .large-course-component .large-course-container .large-course-text-container p {
+    text-align: left;
+    width: 100%;
+  }
+  .contact-hero-component .contact-hero-content-container p {
+    font-size: 20px;
+  }
+  .hero-component .hero-content-container h1 {
+    font-size: 30px;
+  }
+  .hero-component .hero-content-container p {
+    font-size: 20px;
+  }
+  .contact-container .row .contact-form-container a .btn-primary {
+    width: 100%;
+  }
+}
+@media (max-width: 450px) {
+  .header .image-container {
+    width: 200%;
+  }
+  .footer .image-container {
+    width: 50%;
+  }
+}
+
